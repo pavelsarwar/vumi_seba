@@ -24,12 +24,12 @@
       
 	  
 	  
-	<icon src="ldpi.png" platform="android" qualifier="ldpi" />
-	<icon src="mdpi.png" platform="android" qualifier="mdpi" />
-	<icon src="hdpi.png" platform="android" qualifier="hdpi" />
-	<icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
-	<icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
-	<icon src="fr-xxxhdpi.png" platform="android" qualifier="fr-xxxhdpi" />
+	<icon src="res/mipmap-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="ldpi" />
+	<icon src="res/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="res/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
+	<icon src="res/mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
+	<icon src="res/mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
+	<icon src="res/mipmap-xxxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxxhdpi" />
 	
 
 
@@ -38,14 +38,12 @@
     
     <preference name="permissions"                value="none"/>
 	
-	<splash density="ldpi" platform="android" src="screen-ldpi-portrait.png" />
-	<splash density="mdpi" platform="android" src="screen-mdpi-portrait.png" />
-	<splash density="hdpi" platform="android" src="screen-hdpi-portrait.png" />
-	<splash density="xhdpi" platform="android" src="screen-xhdpi-portrait.png" />
-	<splash density="xxhdpi" platform="android" src="screen-xxhdpi-portrait.png" />
-	<splash density="xxxhdpi" platform="android" src="screen-xxxhdpi-portrait.png" />
-	
-	
+	<gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+	<gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+	<gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+	<gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+	<gap:splash gap:density="xxhdpi" gap:platform="android" src="res/screen/android/screen-xxhdpi-portrait.png" />
+	<gap:splash gap:density="xxxhdpi" gap:platform="android" src="res/screen/android/screen-xxxhdpi-portrait.png" />
 	
 	
 
@@ -56,11 +54,11 @@
 
     <!-- Customize your app and platform with the preference element. -->
 	<preference name="permissions" value="none"/>
-    <preference name="phonegap-version"           value="cli-5.2.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version"           value="3.7.0" />          <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
-	<preference name="android-minSdkVersion" value="14" /> <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+	<preference name="android-minSdkVersion" value="7" /> <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 	<preference name="android-installLocation" value="auto" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
     <access origin="*"/>
