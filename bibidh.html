@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> অফিস স্মারক, পরিপত্র ও প্রজ্ঞাপন (চলমান) </h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p><strong>ভূমি রেকর্ড ও জরিপ অধিদপ্তর কর্তক মুদ্রিত বিভিন্ন প্রশাসনিক ও রাজস্ব ইউনিটের ম্যাপ ও খতিয়ানের মূল্য:</strong><br>
+( ভূমি মন্ত্রণালয়ের ১৯/০৮/২০১৫ তারিখের ৩০৪ নং স্মারক)<br>
+ ০১। মৌজা ম্যাপ( মুদ্রিত)- ৫০০/-       <br>       ০২। থানা ম্যাপ(মুদ্রিত )- ৭০০/-<br>
+০৩। জেলা ম্যাপ(মুদ্রিত) সাদা- ৮০০/-     <br>     ০৪। জেলা ম্যাপ(মুদ্রিত) রঙ্গিন- ১০০০/-<br>
+০৫। বাংলাদেশ ম্যাপ(মুদ্রিত) -১৫০০/-    <br>    ০৬। খতিয়ান(মুদ্রিত) -১০০/-<br><br>
+
+# ভূমি মন্ত্রণালয় এবং এর আওতাধীন দপ্তরসমূহের সকল প্রকার মামলা বা কার্যক্রম বিষয়ে প্রতি আবেদনের ক্ষেত্রে The Court Fees Act, 2010  মোতাবেক  ২০.০০(বিশ) টাকা নির্ধারিত হয়েছে। (বাংলাদেশ গেজেট  ১০/০৮/২০১৫)</p>
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

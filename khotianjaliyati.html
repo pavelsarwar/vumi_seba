@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> খতিয়ান জালিয়াতি হলে করণীয়!</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+  	<div data-role="main" class="ui-content">
+	
+	
+              <p><strong>ভূমি জরিপের ক্ষেত্রে ৩০ ও ৩১ ধারায় প্রয়োগ: </strong><br>ভূমি জরিপের ক্ষেত্রে অনেকগুলো ধাপ পার হতে হয়। যেমন ট্রাভার্স সার্ভে, কিস্তোয়ার, খানাপুরি, বুঝারত, খানাপুরি কাম বুঝারত, তসদিক বা এটেস্টেশন, খসড়া রেকর্ড প্রকাশনা। খসড়া প্রকাশনার সময় রেকর্ডে কোন প্রকার ভুলভ্রান্তি থাকতে পারে। খসড়া পাবলিকেশন্স যাকে সংক্ষেপে ডিপি বলা হয়। এ পর্যায়ে কারও কোন অভিযোগ থাকলে তা উত্থাপনের সুযোগ থাকে। কোনো ভূমির জরিপ চলাকালে কারও কোন অভিযোগ থাকলে প্রতিকার চাওয়ার সুযোগ রয়েছে।<br><br>
+              প্রজাস্বত্ব বিধিমালার ৩০ ও ৩১ বিধিতে আপত্তি ও আপিলের সুযোগ রয়েছে। কোন ভূমি জরিপের প্রকাশিত খসড়া খতিয়ান সম্পর্কে কারও কোন আপত্তি বা দাবি থাকলে সরকার নির্ধারিত ১০ টাকার কোর্ট ফি দিয়ে আপত্তি দায়ের করা যাবে। এটিই ৩০ বিধির আপত্তি। এই স্তরে সরকারী সেবা প্রদানে নিয়োজিত কর্মকর্তা হলেন সংশ্লিষ্ট আপত্তি অফিসার বা সহকারী সেটেলমেন্ট অফিসার বা উপজেলা সেটেলমেন্ট অফিসার। দেওয়ানি কার্যবিধি অনুসরণে এটি একটি বিচারিক কার্যক্রম। পক্ষগণ নিজে অথবা প্রয়োজনে মনোনীত প্রতিনিধির মাধ্যমে নিজ নিজ দাবি আপত্তি অফিসারের কাছে উত্থাপন করতে পারেন। এই স্তরে দাখিলকৃত আপত্তি কেসগুলো নিস্পত্তির জন্য দায়িত্বপ্রাপ্ত অফিসার নোটিশের মাধ্যমে বাদী-বিবাদী পক্ষকে হাজির করে পক্ষ বিপক্ষের বত্তব্য শুনবেন ও বিশ্লেষণপূর্বক রায় প্রদান করবেন এবং অবশ্যই রায় মোতাবেক রেকর্ড সংশোধন করবেন।<br><br>
+             আপত্তি কেসের রায় দ্বারা কোন পক্ষ সংক্ষুদ্ধ হলে তিনি রায় প্রদানের ৩০ দিনের মধ্যে নির্ধারিত ফরমে ও নির্ধারিত ফি প্রদান করে সিনিয়র সহকারী সেটেলমেন্ট অফিসারের কাছে ৩১ বিধিতে আপিল দায়ের করতে পারেন। আপিল অফিসার সংশ্লিষ্ট পক্ষগণকে নোটিশ প্রদান করে এবং ব্যক্তিগতভাবে ক্ষমতাপ্রাপ্ত প্রতিনিধির মাধ্যমে শুনানীর সুযোগ প্রদান করে আপিল নিস্পত্তি করবেন। আপিল রায় মোতাবেক প্রয়োজনে খতিয়ান সংশোধন করা হবে।</p>
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

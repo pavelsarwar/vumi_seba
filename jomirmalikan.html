@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> জমির মালিকানা সংরক্ষণার্থে যে <br>সকল কাগজপত্র সংরক্ষণ করতে হবে</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+<p><strong>জমির মালিকানা সংরক্ষণার্থে যে সকল কাগজপত্র সংরক্ষণ করতে হবে</strong></p>
+
+<p>#	সি,এস এস,এ ও আর,এস রেকর্ডের (খতিয়ান) কপি<br>
+#	রেজিস্ট্রি দলিল, সূত্র দলিল, বাটোয়ারা দলিল ইত্যাদি সকল প্রকার দলিল <br>
+#	খারিজ খতিয়ান (প্রস্তাবিত খতিয়ান)<br>
+#	ডি, সি, আর + ভূমি উন্নয়ন কর প্রদানের দাখিলা<br>
+#	দেওয়ানী মামলা, মিসকেস বা অন্যান্য মামলা সূত্রে প্রাপ্ত হলে মামলার রায় ও ডিক্রির জাবেদা নকল।<br>
+#	মৌজা ম্যাপ (সিএস,এসএ ও আর,এস)<br>
+#	জমি অধিগ্রহন হলে অধিগ্রহন সংক্রান্ত সকল নোটিশসহ অন্যান্য কাগজপত্র।<br>
+#	আদিবাসী জমি/ সম্পত্তি ক্রয় করলে, জেলা প্রশাসক কর্তৃক বিক্রয়ের অনুমতিপত্র। <br>
+#	এছাড়াও ভূমি মালিককে তার স্বত্ব দখলীয় জমির চতু:সীমানা স্থায়ী আইল/পিলার দ্বারা চিহ্নিত করে রাখতে হবে। এমনকি দাগের মধ্যে জমি ভাগ হলেও সেটেলমেন্ট নকশার সীমানা চিহ্নিত করে রাখতে হবে।</p>
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

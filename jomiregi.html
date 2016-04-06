@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> জমি রেজিস্ট্রেশন করার <br>জন্য সর্বশেষ খরচের হিসাব</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+	<p><strong>জমি রেজিস্ট্রেশন করার জন্য সর্বশেষ খরচের হিসাব</strong></p>
+
+
+    <p> রেজিস্ট্রেশন আইন (২০০৪ পর্যন্ত সংশোধিত) অনুসারে স্থাবর সম্পত্তি বিক্রয়ের সর্বশেষ দলিল<br>
+<strong>রেজিস্ট্রেশন ফি-</strong><br>
+     স্ট্যাম্প  ৩০০/= <br> চুক্তিপত্র স্ট্যাম্প ২০০/=        <br>       
+৫০	লক্ষ টাকার উর্দ্ধে ২০০০/= <br> ৫ লক্ষ টাকা হতে ৫০ লক্ষ টাকা পর্যন্ত ১০০০/   <br> হেবার ক্ষেত্রে স্ট্যাম্প ২০০/=     <br>         
+এ ফিস ১০০/=, ই ফিস ১০০/=, এন ফিস প্রতি ৩০০ শব্দ ৪০/=</p>
+                                                                                                    
+</h4><strong>কবলা দলিল রেজিস্ট্রি ফি-</strong></h4>
+<table class="table table-bordered">
+				<tr>
+				  <td class="warning">শহর এলাকা	</td>
+				  <td class="info">গ্রাম এলাকা (কৃষি)	</td>
+				  <td class="info">গ্রাম এলাকা (অকৃষি)</td>
+				</tr>
+
+	<tr><td>ক. স্ট্যাম্প শুল্ক- বিক্রয়মূল্যের -৩%  </td><td>ক. স্ট্যাম্প শুল্ক- বিক্রয়মূল্যের -৩% </td><td> ক. স্ট্যাম্প শুল্ক- বিক্রয়মূল্যের -  ৩%	</td></tr>		
+	<tr><td>খ. রেজিস্ট্রি ফি- বিক্রয় মূল্যের  ২%   </td><td>খ. রেজিস্ট্রি ফি- বিক্রয় মূল্যের  ২%</td><td> খ. রেজিস্ট্রি ফি- বিক্রয় মূল্যের    ২%</td></tr>
+	<tr><td>গ. স্থানীয় কর -                  ২ %  </td><td>গ. স্থানীয় কর -                  ২ %</td><td>  গ. স্থানীয় কর -                   ২ % </td></tr>
+	<tr><td>ঘ. উৎসে কর                     ৩%  </td><td>ঘ. উৎসে কর                     ১%	</td><td>ঘ. উৎসে কর                       ১% </td></tr>
+	<tr><td>মোট= ১০%	 </td><td>মোট= ৮%	</td><td> মোট= ৮%	</td></tr>
+				
+</table>	
+
+<p>স্ট্যাম্প ফি ১০০/= হলফ নামা ২০০/=<br>
+*স্থানীয় কর (শহর এলাকা)= জেলা পরিষদ কর ১% + সিটি কর্পোরেশন/পৌরসভা/ ক্যান্টনমেন্ট বোর্ড ১%<br>
+* স্থানীয় কর (গ্রাম এলাকা)= জেলা পরিষদ কর ১%+ ইউনিয়ন পরিষদ কর ১%<br>
+* স্থানীয় উপজেলা পরিষদ কর ১%</p>
+
+
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

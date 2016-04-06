@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> অর্পিত সম্পত্তি (খ তফশিল) এর নামজারী ও ভূমি উন্নয়ন কর প্রদান বিষয়ে করণীয়</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	<h4><strong>অর্পিত সম্পত্তি (খ তফশিল) এর নামজারী ও ভূমি উন্নয়ন কর প্রদান বিষয়ে করণীয়</strong></h4>
+	
+
+<p>#আবেদনপত্র আবশ্যিকভাবে সহকারী কমিশনার (ভূমি) এর কার্যালয়ে জমা দিতে হবে।<br>
+#	আবেদনপত্রের ভিত্তিতে মিস কেস রুজু করে শুনানী গ্রহণ অন্তে মামলার আদেশ প্রদান করা হবে।<br>
+#	শুনানীর সময় অবশ্যই সকল মূল দলিল উপস্থাপন করতে হবে।<br>
+#	উক্ত মামলা নিষ্পত্তি করে নামজারীর জন্য কোন পুনঃ তদন্ত বা কাগজপত্র যাচাই বাছাই করা হবে না। বিধায় নামজারীর সময়ে নির্ধারিত সময়ের অতিরিক্ত সময় ও অর্থ খরচের প্রয়োজন নাই।</p>
+
+<p><strong>যে সমস্ত কাগজ/দলিল সংযুক্ত করতে হবে</strong><br>
+১। স্বাক্ষর ও তারিখ সম্বলিত আবেদনপত্র। <br>
+৩। নির্ধারিত কোর্ট ফি। <br>
+৪। এস,এ/আর,এস খতিয়ানের কপি।<br>
+৫। রেকর্ড হতে সর্বশেষ মালিকানা প্রমাণের ধারাবাহিক দলিলসমূহ। <br>
+৬। ওয়ারিশ সনদ(প্রযোজ্য ক্ষেত্রে)।<br>
+৭। জাতীয় পরিচয়পত্র/ভোটার তালিকা/প্রাসঙ্গিক প্রমাণসমূহ (প্রযোজ্য ক্ষেত্রে)।<br>
+৮। গেজেটের অনুলিপি। <br>
+৯। ইতোপূর্বে আদালতের আদেশ/ডিক্রির অনুলিপিসমূহ।<br>
+১০। ৩১/০৩/২০১৬ খ্রিঃ তারিখের পূর্বে “খ” তফসীলের অন্তর্ভূক্ত জমির ভূমি উন্নয়ন কর 
+প্রদানের আবেদন করতে হবে, অন্যথায় তফসীলভূক্ত জমি খাসে পরিণত হবে। </p>
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> মুসলিম উত্তরাধিকার আইন</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+<p>	মৃত ব্যক্তির ঋণ পরিশোধ, উইল বা দান থাকলে সে সম্পত্তি পরিশোধের পর যে সম্পত্তি থাকবে সে সম্পত্তি উত্তরাধিকারদের মধ্যে বন্টন হবে।<br>
+১। প্রাথমিক উত্তরাধিকার ৫ জন ক) স্বামী/স্ত্রী খ) পিতা গ) মাতা ঘ) পুত্র ঙ) কন্যা (উক্ত ৫ জন সম্পত্তি প্রাপ্তি হতে কখনো বঞ্চিত হয় না)।<br>
+২। হিস্যা বন্টনে সমপর্যায়ের নারী পুরুষের অর্ধেক পাবে। যেমন পুত্র- কন্যার দ্বিগুন, (ব্যতিক্রম পিতা-মাতা, বৈমাত্রেয় ভাই-বোন)।<br>
+৩। নিকটবর্তীর কারণে দূরবর্তী সম্পত্তি পাবে না। যেমন-পিতা থাকলে দাদা পাবে না।<br>
+৪। মৃত্যুকালে যার দ্বারা সম্পর্কযুক্ত তিনি বেঁচে থাকলে পরবর্তী সম্পর্কযুক্ত ব্যক্তি পাবে না। যেমন- ভাই বেঁচে থাকলে, ভাইয়ের পুত্র পাবে না।<br>
+৫। পুত্র না থাকলে কন্যা ১ জন হলে .৫০০ অংশ, কন্যা একাধিক হলে একত্রে .৬৬৭ অংশ পাবে।<br>
+৬। স্বামীর সন্তান বর্তমানে স্ত্রী .১২৫ অংশ, স্বামী নিঃসন্তান হলে স্ত্রী .২৫০ অংশ পাবে। (স্ত্রী একাধিক হলে একত্রে ঐ পরিমাণই পাবে)।<br>
+৭। স্ত্রীর সন্তান থাকলে স্বামী .২৫০ অংশ, স্ত্রী নিঃসন্তান হলে স্বামী .৫০০ অংশ পাবে।<br>
+৮। সন্তান থাকলে পিতা .১৬৭ অংশ, সন্তান না থাকলে পিতা অপর শরীকের প্রাপ্য দেওয়ার পর বাকী অংশ পাবে।<br>
+৯। সন্তান থাকলে মাতা .১৬৭ অংশ, সন্তান না থাকলে মাতা .৩৩৩ অংশ পাবে। (দুই বা ততোধিক ভাই বোন থাকলে মাতার অংশ বৃদ্ধি পাবে না)<br>
+১০। স্বামী/স্ত্রী বেঁচে থাকলে স্বামী/স্ত্রীর অংশ দেওয়ার পর মাতা অবশিষ্ট সম্পত্তির .১৬৭ অংশ পাবে।<br>
+১১। পুত্র বা পিতার বর্তমানে ভাই/বোন ওয়ারিশ হয় না ।<br>
+১২। পিতা, পুত্র, কন্যা বা ভাই/ বোন না থাকলে দূরবর্তী আত্মীয়গণ সম্পত্তি পাবে।<br>
+১৩। মৃত ব্যক্তি নিঃসন্তান হলে পিতা .৬৬৭ অংশ , মাতা .৩৩৩ অংশ পাবে।<br>
+১৪। পিতা, মাতা ও সন্তান না থাকলে বোন .৫০০ অংশ পাবে। বোন একাধিক হলে .৬৬৭ অংশ, ভাই ও বোন থাকলে ভাই বোনের দ্বিগুন পাবে।<br>
+১৫। নিঃসন্তান বোনের সম্পত্তি ভাই পাবে।<br>
+১৬। লিঙ্গ নির্ধারনে সমস্যা রয়েছে এমন সন্তানকে মেয়ে হিসেবে গণ্য করে সম্পদ বন্টন করতে হবে।<br>
+১৭। গর্ভস্থ সন্তানের জীবিত হিসেবে গণ্যকরে উত্তরাধিকার নির্ধারিত হবে গর্ভস্থ সন্তানকে পুত্র গণ্যকরে বা তার জন্মের পর সম্পদ বন্টন করতে হবে<br>
+১৮। প্রাপ্য সম্পত্তির আনুপাতিক হারে ওয়ারিশদেরকে মৃতের দেনা থাকলে পরিশোধ করতে হবে।<br>
+১৯। মৃতের পুত্র , পিতা, পৌত্র থাকলে বোন সম্পত্তি পাবে না।<br>
+২০। যার সম্পত্তি বন্টন হচ্ছে তার মৃত্যুর পূর্বে তার কোন পুত্র/কন্যা মারা গেলে মৃত পুত্র/কন্যার কোন সন্তান বর্তমান থাকলে সে সন্তান ঐ পরিমাণ সম্পত্তি পাবে যা তার/ তাদের পিতা/ মাতা জীবিত থাকলে পেত।<br>
+২১। সহোদর ভাই, বৈমাত্রেয় ভাইদের আগে ওয়ারিশ হবে।<br>
+২২। কন্যা পিতার সম্পত্তির ন্যায় মায়ের সম্পত্তিতে অংশ পাবে।<br>
+২৩। বৈমাত্রেয় ভাই একজন হলে .১৬৭ অংশ , একাধিক হলে .৩৩৩ অংশ পাবে।<br>
+২৪। মৃত ব্যক্তির পুত্র/কন্যা, পৌত্র বা দাদা বর্তমান থাকলে বৈমাত্রেয় / বৈপিত্রেয় ভাই/ বোন কোন সম্পত্তি পাবে না।<br>
+২৫। কোন উত্তরাধিকারী সম্পত্তি থেকে বঞ্চিত হবে, যদি সে (ক) যার সম্পত্তি তাকে হত্যা করে (খ) ভিন্ন ধর্ম গ্রহণ করে।<br>
+২৬।  পিতা ও মাতা না থাকলে মাতার মাতা ও পিতার মাতা থাকলে উভয়ে একত্রে .১৬৭ অংশ পাবে।</p>
+
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

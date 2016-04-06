@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="../images/favicon.ico">
+	<link href="../styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+    <script src="../cordova.js"></script>
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>রাজশাহী বিভাগ</h1>
+			<a href="../app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">রাজশাহী</a>
+	<a href="Tel:+880723356028" class="ui-link-inherit" data-role="button" data-theme="b">বোয়ালিয়া +৮৮০৭২৩৩৫৬০২৮</a>
+	<a href="Tel:+880722256037" class="ui-link-inherit" data-role="button" data-theme="b">বাগমারা +৮৮০৭২২২৫৬০৩৭</a>
+	<a href="Tel:+880722356065" class="ui-link-inherit" data-role="button" data-theme="b">চারঘাট +৮৮০৭২২৩৫৬০৬৫</a>
+	<a href="Tel:+880722956005" class="ui-link-inherit" data-role="button" data-theme="b">দুর্গাপুর +৮৮০৭২২৯৫৬০০৫</a>
+	<a href="Tel:+880722556008" class="ui-link-inherit" data-role="button" data-theme="b">গোদাগাড়ী +৮৮০৭২২৫৫৬০০৮</a>
+	<a href="Tel:+880722665023" class="ui-link-inherit" data-role="button" data-theme="b">মোহনপুর +৮৮০৭২২৬৬৫০২৩</a>
+	<a href="Tel:+880721860212" class="ui-link-inherit" data-role="button" data-theme="b">পবা +৮৮০৭২১৮৬০২১২</a>
+	<a href="Tel:+880722856120" class="ui-link-inherit" data-role="button" data-theme="b">পুটিয়া +৮৮০৭২২৮৫৬১২০</a>
+	<a href="Tel:+880722956005" class="ui-link-inherit" data-role="button" data-theme="b">তানোর +৮৮০৭২২৯৫৬০০৫</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">জয়পুরহাট</a>
+	<a href="Tel:+88057162981" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৫৭১৬২৯৮১</a>
+	<a href="Tel:+880572475078" class="ui-link-inherit" data-role="button" data-theme="b">পাচঁবিবি +৮৮০৫৭২৪৭৫০৭৮</a>
+	<a href="Tel:+880572556097" class="ui-link-inherit" data-role="button" data-theme="b">কালাই +৮৮০৫৭২৫৫৬০৯৭</a>
+	<a href="Tel:+880572356064" class="ui-link-inherit" data-role="button" data-theme="b">ক্ষেতলাল +৮৮০৫৭২৩৫৬০৬৪</a>
+	<a href="Tel:+880572264131" class="ui-link-inherit" data-role="button" data-theme="b">আক্কেলপুর +৮৮০৫৭২২৬৪১৩১</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">বগুড়া</a>
+	<a href="Tel:+8805164210" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৫১৬৪২১০</a>
+	<a href="Tel:+8801733335434" class="ui-link-inherit" data-role="button" data-theme="b">সোনাতলা +৮৮০১৭৩৩৩৩৫৪৩৪</a>
+	<a href="Tel:+88074169202" class="ui-link-inherit" data-role="button" data-theme="b">আদমদীঘি +৮৮০৭৪১৬৯২০২</a>
+	<a href="Tel:+8801733335936" class="ui-link-inherit" data-role="button" data-theme="b">ধুনট +৮৮০১৭৩৩৩৩৫৯৩৬</a>
+	<a href="Tel:+880502489012" class="ui-link-inherit" data-role="button" data-theme="b">দুপচাচিয়া +৮৮০৫০২৪৮৯০১২</a>
+	<a href="Tel:+880502575123" class="ui-link-inherit" data-role="button" data-theme="b">গাবতলী +৮৮০৫০২৫৭৫১২৩</a>
+	<a href="Tel:+880502671130" class="ui-link-inherit" data-role="button" data-theme="b">কাহালু +৮৮০৫০২৬৭১১৩০</a>
+	<a href="Tel:+880502776040" class="ui-link-inherit" data-role="button" data-theme="b">নন্দীগ্রাম +৮৮০৫০২৭৭৬০৪০</a>
+	<a href="Tel:+880502856280" class="ui-link-inherit" data-role="button" data-theme="b">সারিয়াকান্দি +৮৮০৫০২৮৫৬২৮০</a>
+	<a href="Tel:+880502977405" class="ui-link-inherit" data-role="button" data-theme="b">শেরপুর +৮৮০৫০২৯৭৭৪০৫</a>
+	<a href="Tel:+880503361122" class="ui-link-inherit" data-role="button" data-theme="b">শিবগন্জ +৮৮০৫০৩৩৬১১২২</a>
+	<a href="Tel:+8805182244" class="ui-link-inherit" data-role="button" data-theme="b">শাজাহানপুর +৮৮০৫১৮২২৪৪</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">নাটোর</a>
+	<a href="Tel:+88077166935" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৭৭১৬৬৯৩৫</a>
+	<a href="Tel:+880772272015" class="ui-link-inherit" data-role="button" data-theme="b">বাগাতিপাড়া +৮৮০৭৭২২৭২০১৫</a>
+	<a href="Tel:+880772356021" class="ui-link-inherit" data-role="button" data-theme="b">বড়াইগ্রাম +৮৮০৭৭২৩৫৬০২১</a>
+	<a href="Tel:+880772474042" class="ui-link-inherit" data-role="button" data-theme="b">গুরুদাসপুর +৮৮০৭৭২৪৭৪০৪২</a>
+	<a href="Tel:+880772575018" class="ui-link-inherit" data-role="button" data-theme="b">লালপুর +৮৮০৭৭২৫৭৫০১৮</a>
+	<a href="Tel:+880772663094" class="ui-link-inherit" data-role="button" data-theme="b">সিংড়া +৮৮০৭৭২৬৬৩০৯৪</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">নওগাঁ</a>
+	<a href="Tel:+88074162820" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৭৪১৬২৮২০</a>
+	<a href="Tel:+880742863277" class="ui-link-inherit" data-role="button" data-theme="b">পতীতলা +৮৮০৭৪২৮৬৩২৭৭</a>
+	<a href="Tel:+880742456134" class="ui-link-inherit" data-role="button" data-theme="b">ধামইরহাট +৮৮০৭৪২৪৫৬১৩৪</a>
+	<a href="Tel:+880742675037" class="ui-link-inherit" data-role="button" data-theme="b">মহাদেবপুর +৮৮০৭৪২৬৭৫০৩৭</a>
+	<a href="Tel:+880742956012" class="ui-link-inherit" data-role="button" data-theme="b">পোরশা +৮৮০৭৪২৯৫৬০১২</a>
+	<a href="Tel:+880743274331" class="ui-link-inherit" data-role="button" data-theme="b">সাপাহার +৮৮০৭৪৩২৭৪৩৩১</a>
+	<a href="Tel:+880742356228" class="ui-link-inherit" data-role="button" data-theme="b">বদলগাছী +৮৮০৭৪২৩৫৬২২৮</a>
+	<a href="Tel:+880742562029" class="ui-link-inherit" data-role="button" data-theme="b">মান্দা +৮৮০৭৪২৫৬২০২৯</a>
+	<a href="Tel:+880742756090" class="ui-link-inherit" data-role="button" data-theme="b">নিয়ামতপুর +৮৮০৭৪২৭৫৬০৯০</a>
+	<a href="Tel:+880742271041" class="ui-link-inherit" data-role="button" data-theme="b">আত্রাই +৮৮০৭৪২২৭১০৪১</a>
+	<a href="Tel:+880743356118" class="ui-link-inherit" data-role="button" data-theme="b">আত্রাই +৮৮০৭৪২২৭১০৪১</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">চাপাইনবাবগন্জ</a>
+	<a href="Tel:+88078155586" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৭৮১৫৫৫৮৬</a>
+	<a href="Tel:+880782374245" class="ui-link-inherit" data-role="button" data-theme="b">গোমস্তাপুর+৮৮০৭৮২৩৭৪২৪৫</a>
+	<a href="Tel:+880782574115" class="ui-link-inherit" data-role="button" data-theme="b">শিবগন্জ +৮৮০৭৮২৫৭৪১১৫</a>
+	<a href="Tel:+880782456036" class="ui-link-inherit" data-role="button" data-theme="b">নাচোল +৮৮০৭৮২৪৫৬০৩৬</a>
+	<a href="Tel:+880782256282" class="ui-link-inherit" data-role="button" data-theme="b">ভোলাহাট +৮৮০৭৮২২৫৬২৮২</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">পাবনা</a>
+	<a href="Tel:+88073166784" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৭৩১৬৬৭৮৪</a>
+	<a href="Tel:+880732256013" class="ui-link-inherit" data-role="button" data-theme="b">আটঘরিয়া +৮৮০৭৩২২৫৬০১৩</a>
+	<a href="Tel:+880732663085" class="ui-link-inherit" data-role="button" data-theme="b">ইশ্বরদী +৮৮০৭৩২৬৬৩০৮৫</a>
+	<a href="Tel:+880732456134" class="ui-link-inherit" data-role="button" data-theme="b">চাটমোহর +৮৮০৭৩২৪৫৬১৩৪</a>
+	<a href="Tel:+880732564009" class="ui-link-inherit" data-role="button" data-theme="b">ফরিদপুর +৮৮০৭৩২৫৬৪০০৯</a>
+	<a href="Tel:+880732375015" class="ui-link-inherit" data-role="button" data-theme="b">বেড়া +৮৮০৭৩২৩৭৫০১৫</a>
+	<a href="Tel:+880732656075" class="ui-link-inherit" data-role="button" data-theme="b">ভাঙ্গুড়া +৮৮০৭৩২৬৫৬০৭৫</a>
+	<a href="Tel:+880732956143" class="ui-link-inherit" data-role="button" data-theme="b">সুজানগর +৮৮০৭৩২৯৫৬১৪৩</a>
+	<a href="Tel:+880732756107" class="ui-link-inherit" data-role="button" data-theme="b">সাথিয়া +৮৮০৭৩২৭৫৬১০৭</a>
+	
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="html/index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>এপ সম্পর্কে তথ্য</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+
+	
+							<h1>ভূমি সেবা: সেবাগ্রহীতার জ্ঞাতব্য ও করণীয়</h1>
+							
+      <p><strong>সাদেকুর রহমান</strong><br>
+বিসিএস (প্রশাসন), ২৮ তম ব্যাচ<br>
+এক্সিকিউটিভ ম্যাজিস্ট্রেট<br>
+রাজশাহী সিটি কর্পোরেশন<br>
+<a href="Tel:+8801727556151">মোবাইল: ০১৭২৭-৫৫৬১৫১</a><br>
+   <a href="mailto:sadeqbcs@gmail.com"> ইমেইল: sadeqbcs@gmail.com</a><br>
+	<a href="https://www.facebook.com/sadequr.rahman.33">ফেইসবুকঃ Sadequr Rahman </a><br>
+[সাবেক সহকারী কমিশনার (ভূমি) মান্দা, নওগাঁ ও জয়পুরহাট সদর, জয়পুরহাট)]
+ 	</p>		
+
+<p><h4 font color="#FF0000">DEVELOPED BY:<br>CODEX SOFTWARE SOLUTION LTD.</h4>
+	
+	<a href="Tel:+8801977772835" class="ui-link-inherit">Mobile: +88 01977772835</a>
+	<br>
+	<a href="mailto:info@css-bd.com"> Email: info@css-bd.com</a><br>
+	<a href="http://www.css-bd.com/">www.css-bd.com</a><br>
+</p>
+	
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

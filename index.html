@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+	<script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="#" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>ভূমি সেবা: <br>সেবাগ্রহীতার জ্ঞাতব্য ও করণীয়</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+
+  	<div data-role="main" class="ui-content">
+	<table class="table table-bordered">
+	
+			<tr><td class="warning" style="text-align:center;"><a href="bani.html"><strong>বাণী</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="orga.html"><strong>উপজেলা ভূমি অফিসের অর্গানোগ্রাম</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="sebaprodan.html"><strong>সেবা প্রদান প্রতিশ্রুতি (Service Delivery Charter)</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="namjari.html"><strong>নামজারী সংক্রান্ত নিয়মাবলী</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="orpitosompotti.html"><strong>অর্পিত সম্পত্তি (খ তফশিল) এর নামজারী ও ভূমি উন্নয়ন কর প্রদান বিষয়ে করণীয়</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="bivinnodhoroner.html"><strong>বিভিন্ন ধরণের (নামজারী/রেকর্ড সংশোধন/মুদ্রণ জনিত/করণিক ভুল সংশোধন) মিসকেসের ক্ষেত্রে করণীয়</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="khotianjaliyati.html"><strong>খতিয়ান জালিয়াতি হলে করণীয়!</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="doliljal.html"><strong>দলিল জাল কি না তা কিভাবে পরীক্ষা করবেন?</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="landtax.html"><strong>ভূমি উন্নয়ন কর</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="rant.html"><strong>রেন্ট সার্টিফিকেট মোকদ্দমা</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="proyojon.html"><strong>যা জানা আপনার অবশ্যই প্রয়োজন</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="jomikroy1.html"><strong>জমি ক্রয়কালে ক্রেতাকে যা দেখতে হবে</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="jomikroy2.html"><strong>জমি ক্রয়ের পর ক্রেতা ও মালিকের কর্তব্য </strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="jomirmalikan.html"><strong>জমির মালিকানা সংরক্ষণার্থে যে সকল কাগজপত্র সংরক্ষণ করতে হবে</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="regi.html"><strong>রেজিস্ট্রেশন (সংশোধন) আইন ২০০৪ এর বিধানসমূহ সম্পর্কে  জনসাধারণের জ্ঞাতব্য</strong></a></td></tr>		
+			<tr><td class="danger" style="text-align:center;"><a href="jomiregi.html"><strong>জমি রেজিস্ট্রেশন করার জন্য সর্বশেষ খরচের হিসাব</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="muslim.html"><strong>মুসলিম উত্তরাধিকার আইন</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="hindu.html"><strong>হিন্দু উত্তরাধিকার আইনের বিভিন্ন পদ্ধতি</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="orpito.html"><strong>অর্পিত সম্পত্তি “ক” তফসিলভূক্ত জমির লীজ নবায়নের নিয়ম</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="jolmohal.html"><strong>জলমহাল ব্যবস্থাপনা বিষয়ে সরকারী  নীতিমালা এবং করণীয়</strong> </a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="bebosthapona.html"><strong>হাট-বাজার ব্যবস্থাপনা বিষয়ে সরকারী নীতিমালা এবং করণীয়</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="kresi.html"><strong>কৃষি খাসজমি ব্যবস্থাপনা ও বন্দোবস্ত নীতিমালা এবং করণীয়</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="okresi.html"><strong>অকৃষি খাসজমি ব্যবস্থাপনা ও বন্দোবস্ত নীতিমালা এবং করণীয়</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="sobdo.html"><strong>শব্দ পুঞ্জের ব্যাখ্যাসহ অর্থ</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="vumirporimap.html"><strong>ভূমির পরিমাপ</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="aclandphn.html"><strong>দেশের সকল সহকারী কমিশনার (ভূমি) এর ফোন নং</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="bibidh.html"><strong>অফিস স্মারক, পরিপত্র ও প্রজ্ঞাপন (চলমান) </strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="vumiministre.html"><strong>ভূমি মন্ত্রণালয় ও অধিনস্ত বোর্ড, অধিদপ্তর</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="motamot.html"><strong>মতামত/পরামর্শ/অভিযোগ </strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="act.html"><strong>মন্ত্রণালয়, বোর্ড, অধিদপ্তর, ভূমি অফিসমূহ হতে নাগরিকের তথ্য অধিকার</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="#"><strong>ভূমি অফিসের সেবাসমূহের প্রসেস ম্যাপ</strong></a></td></tr>
+			<tr><td class="warning" style="text-align:center;"><a href="#"><strong>দেশের সকল অতিরিক্ত জেলা প্রশাসক (রাজস্ব) ফোন নং</strong></a></td></tr>
+			<tr><td class="danger" style="text-align:center;"><a href="#"><strong>দেশের সকল সাবরেজিস্টার এর ফোন নং</strong></a></td></tr>
+			
+		</table>
+		
+	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="#" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+</body>
+</html>

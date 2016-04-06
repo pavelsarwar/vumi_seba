@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> বিভিন্ন ধরণের (নামজারী/রেকর্ড সংশোধন/<br>মুদ্রণ জনিত/করণিক ভুল সংশোধন) <br>মিসকেসের ক্ষেত্রে করণীয়ঃ</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+
+  	<div data-role="main" class="ui-content">
+	
+	<h4><strong>বিভিন্ন ধরণের (নামজারী/রেকর্ড সংশোধন/মুদ্রণ জনিত/করণিক ভুল সংশোধন) মিসকেসের ক্ষেত্রে করণীয়ঃ</strong></h4>
+
+
+     <p>মিসকেসের মাধ্যমে ত্রুটিপূর্ণ নামজারি কেস বাতিল, আদালতের আদেশে রেকর্ড সংশোধন, রেকর্ডের মুদ্রণজনিত/করণিক (নামের ভুল, অংশ বসানোর হিসেবে ভুল, দাগসূচীতে ভুল, ম্যাপের সাথে রেকর্ডের ভুল ইত্যাদি) ভুল সংশোধন ইত্যাদি বিবিধ প্রতিকার প্রদান করা হয়।<br>
+#	আদালতের রায়/ডিক্রির মাধ্যমে রেকর্ড সংশোধন চাইলে উক্ত রায়ের সার্টিফায়েড/ফটোকপি,<br>
+#	অন্যান্য ক্ষেত্রে নামজারি/খারিজ করতে যেসব কাগজপত্র লাগে, তার সবই দাখিল করতে হবে।<br>
+#	আবেদনে বাদীর মোবাইল নম্বর ও পূর্ণাঙ্গ ঠিকানা উল্লেখ করতে হবে। সম্ভব হলে বিবাদীর মোবাইল নম্বর এবং পূর্ণাঙ্গ ঠিকানাও উল্লেখ করুন।<br>
+#	নোটিশ প্রাপ্তির পর উল্টো পৃষ্ঠায় স্বাক্ষর করে মোবাইল নম্বর প্রদান করবেন (যাতে পরবর্তীতে এই নম্বরে ফোন করে নোটিশ জারির বিষয়টি নিশ্চিত হওয়া যায়)।<br>
+#	নির্ধারিত তারিখে শুনানিতে উপস্থিত হয়ে যুক্তিপূর্ণ লিখিত বক্তব্য ও বক্তব্যের সমর্থনে প্রয়োজনীয় কাগজপত্র দাখিল করুন।<br>
+#	মিসকেসের আদেশে কোনো পক্ষ সংক্ষুদ্ধ হলে অতিরিক্ত জেলা প্রশাসক (রাজস্ব) বরাবর ৩০ (ত্রিশ) কার্যদিবসের মধ্যে আপিল করা যাবে।<br>
+#	আবেদনপত্র আবশ্যিকভাবে সহকারী কমিশনার (ভূমি) এর কার্যালয়ে জমা দিতে হবে।<br>
+# 	আবেদনপত্রের ভিত্তিতে মিস কেস রুজু করে শুনানী গ্রহণ অন্তে মামলার আদেশ প্রদান করা হবে।<br>
+#	শুনানীর সময় অবশ্যই সকল মূল দলিল উপস্থাপন করতে হবে।<br>
+<strong>যে সমস্ত কাগজ/দলিল সংযুক্ত করতে হবেঃ</strong><br>
+১। স্বাক্ষর সম্বলিত আবেদনপত্র। <br>২। আবেদনকারীর ছবি ০১ কপি(প্রযোজ্য ক্ষেত্রে)। <br>৩। নির্ধারিত কোর্ট ফি। <br>৪। এস,এ/আর,এস খতিয়ানের কপি।<br> ৫। রেকর্ড হতে সর্বশেষ মালিকানা প্রমাণের ধারাবাহিক দলিলসমূহ। <br>৬। ওয়ারিশ সনদ/জাতীয় পরিচয় পত্রের অনুলিপি/ভোটার তালিকা/প্রাসঙ্গিক প্রমাণসমূহ(প্রযোজ্য ক্ষেত্রে)। <br>৭। আবেদনকারীর এস,এ/আর,এস মূলে খারিজ করা থাকলে তার অনুলিপি অথবা যে খারিজ বাতিল/সংশোধনের জন্য আবেদন করা হচ্ছে তার খতিয়ান কপি । <br>০৮। ইতোপূর্বে আদালতের আদেশ/ডিক্রির অনুলিপিসমূহ। <br>০৯। যে দাগ বা নাম ভুল হয়েছে তার স্বপক্ষে প্রয়োজনীয় কাগজপত্র বা প্রমাণপত্র। <br>১০। প্রয়োজনে হাল/সাবেক সূচীপত্রের অনুলিপি।</p>
+                                                                                                    
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

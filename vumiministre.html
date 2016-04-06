@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>ভূমি মন্ত্রণালয় ও অধিনস্ত বোর্ড, অধিদপ্তর</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+  	<div data-role="main" class="ui-content">
+	
+<p>	<strong>ভূমি মন্ত্রণালয়</strong><br>
+বাংলাদেশ সচিবালয়, ভবন-৪, ঢাকা<br>
+www.minland.gov.bd<br>
+Phone: +8802-9545131<br>
+Fax: +8802-7162989<br>
+e-mail: info@minland.gov.bd<br>
+Mob: +8801711531215<br><br>
+<strong>ভূমি আপীল বোর্ড</strong><br>
+ঢাকার সেগুন বাগিচাস্থ ২য় ১২ তলা সরকারী ভবন (৮ম তলা)।<br>
+www.lab.portal.gov.bd<br><br>
+<strong>ভূমি সংস্কার বোর্ড</strong><br>
+১৪১-১৪৩ মতিঝিল, বা/এ, ঢাকা-১০০০।<br>
+www.lrb.gov.bd <br><br>
+<strong>ভূমি রেকর্ড ও জরিপ অধিদপ্তর</strong><br>
+সাত রাস্তার মোড়, তেজগাঁও, ঢাকা।<br>
+www.dlrs.gov.bd
+</p>
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

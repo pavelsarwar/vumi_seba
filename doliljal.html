@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>দলিল জাল কি না তা<br>কিভাবে পরীক্ষা করবেন?</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+  	<div data-role="main" class="ui-content">
+	
+<p>	
+# সাবরেজিস্ট্রি অফিসে দলিলের প্রকৃতি অনুযায়ী চারটি ভলিউম বা রেজিস্টার লেখা হয়ে থাকে। কোন দলিল নিয়ে সন্দেহ হলে রেজিষ্ট্রি অফিসে সংরক্ষণ করা দলিলের সাল মিলিয়ে দেখতে হবে।<br>
+# এক জমির একাধিক মালিকের নামে করা থাকলে ধরে নিতে হবে দলিলটি জাল হতে পারে। এক্ষেত্রে সরেজমিনে গিয়ে স্থানীয় লোকজনের সাথে কথা বলে মূল মালিক কে? তা নির্ণয় করতে হবে।<br>
+# অনেক স্বাক্ষর জালিয়াতি করে দলিলদাতা বা গ্রহীতার সাজা হয়। এ ক্ষেত্রে স্বাক্ষর বিশেষজ্ঞের মাধ্যমে স্বাক্ষরের সত্যতা যাচাই করা যেতে পারে।<br>
+# খেয়াল রাখতে হবে, অনেক আগের দলিলে আগের চিহ্নিত কিছু সীল ব্যবহার করাই থাকে। আগের দলিল সীল যদি নতুন হয়, তাহলে ধরে নিতে হবে দলিলটি জাল হতে পারে।<br>
+# দলিল রেজিষ্ট্রির তারিখ কোন সরকারী বন্ধের দিন থাকলে সন্দেহের অবকাশ থাকবে।<br>
+# অনেক সময় অর্পিত সম্পত্তি বা মৃত ব্যক্তির সম্পত্তি জীবিত দেখিয়ে জাল করা হয়।<br>
+# সহকারী কমিশনার (ভূমি) অফিস হতে নামজারী সম্পর্কে খোজ নিতে হবে। নামজারীতে ধারাবাহিকতা ঠিক আছে কি না তা যাচাই করতে হবে।<br>
+# সবচেয়ে গুরুত্বপূর্ণ হচ্ছে, জরিপ খতিয়ানে জমির পরিমাণ পরবর্তী সময়ে যতবার বিক্রি হয়েছে, তার সঙ্গে জমির পরিমাণ মিল আছে কি না, তা যাচাই করে দেখা।<br>
+#  দাগ নং ও ঠিকানা ঠিক আছে কি না যাচাই করতে হবে।<br>
+# ভূমি উন্নয়ন কর (খাজনা) নিয়মিত পরিশোধ করা আছে কি না। রশিদের কপি সংগ্রহ করে সঠিক নামে ভুমি উন্নয়ন কর (খাজনা) দেয়া আছে কি না দেখতে হবে।</p>
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

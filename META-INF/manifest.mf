@@ -1,0 +1,1056 @@
+Manifest-Version: 1.0
+
+Name: index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: S/silgUQjD16MBtE+va+9w==
+SHA1-Digest: lu8yHVHD1YX0+/hQtp3uGlFxtCc=
+
+Name: manifest.webapp
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mjc9kl720nDDgKt4Sfzufg==
+SHA1-Digest: DX3zdJCaVNUREQJQPPaAjhGONCE=
+
+Name: app-icons/icon-128.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bamQ3gYxl+Gz0GHqbKVeDw==
+SHA1-Digest: hL6cSvUGltUrJu1L9/Hj8w5KDSQ=
+
+Name: app-icons/icon-16.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: idsRcjHs6plkxlZfNfNP/Q==
+SHA1-Digest: Vs2TSBhDt9yNMbW/UGiySNcLhpk=
+
+Name: app-icons/icon-48.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GBMACBlbUuejashttKXP6A==
+SHA1-Digest: lRI66pWxOAceAfSl6zgiBJXgQc8=
+
+Name: fonts/SolaimanLipi.ttf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fh/PKFGeYzJcqjwWO7MV0w==
+SHA1-Digest: MNRyrJDSzaEAZ53looVGEAFRZqk=
+
+Name: html/app-info.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X7IqvC0Sru5o+8uf9Jgsmg==
+SHA1-Digest: Pqr02Gjn2UO9KxXa5BDNJuWcY7Q=
+
+Name: html/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EMsepBx/bxJxnAMCxmJJxw==
+SHA1-Digest: DHN9+AkcccBFruUMCSQF2IL7tBI=
+
+Name: html/preamble.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tWEHoFE/7jTVybg7yOnqYg==
+SHA1-Digest: dJR8kFLPTWrG9UZH9kU/dRY+D8A=
+
+Name: html/part-01/1.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +1ff1s+oo+jlUELw3a6ckA==
+SHA1-Digest: LtbQq6AjuPs4Wqa6tqfqo1Nt57U=
+
+Name: html/part-01/2.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /4HAFUk+YaBbXMCh0NsFJA==
+SHA1-Digest: ky6gszAhUj3gQVr6nxrxqA9nd3E=
+
+Name: html/part-01/2a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nzOQPnhVG+ny3tNuVJIiaA==
+SHA1-Digest: ANVoT4lD/vNtTATPZ5bwWUF3zUs=
+
+Name: html/part-01/3.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Duxbgu4Z/u/C6luBcZGODA==
+SHA1-Digest: /H44q1cyyDi4WxsuxsvoyssPTMg=
+
+Name: html/part-01/4.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: slIAcjteIPPmX1av7MjKNA==
+SHA1-Digest: 3RAHRj688d4pbHfE+HPVdQplsYc=
+
+Name: html/part-01/4a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y88qYXO2x1wVNcM9FrYJKg==
+SHA1-Digest: rL+EXnCmdRumeCHtMKRLPmhcjHM=
+
+Name: html/part-01/5.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: t5S06r15aRKWIYZ+K8P0uQ==
+SHA1-Digest: VH7SA6/NrkVJqiq4bA7f2RFGbro=
+
+Name: html/part-01/6.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ixYDJ+c01q09KAA49PmDpQ==
+SHA1-Digest: G1Y9WE2OXL3Vr5PNCHCq6SN7mww=
+
+Name: html/part-01/7.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: a6EW9ixr9RUZxLSGwefY1A==
+SHA1-Digest: SQv/vtH9hWNu7mzsIyPtrXzbDJc=
+
+Name: html/part-01/7a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8mNEFGEjJVBfi1YCOe9ufQ==
+SHA1-Digest: MdU2gIQRvS0jCz0Y7gsS2aIbx7Y=
+
+Name: html/part-01/7b.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rwUhtOkrhwZASmQd7ad+wg==
+SHA1-Digest: duTUArpLS4dcnqce+8dU0rHgTAI=
+
+Name: html/part-01/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dLA52a2XwHuhEK65L7Tq1Q==
+SHA1-Digest: HDoG3Is/Nx8mIyhXxAvb9jlX7qM=
+
+Name: html/part-02/10.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xDru8ldH8i6BbkmxGM/TfA==
+SHA1-Digest: Ik5u/VOUhsGQLoBztjn5veqSlSE=
+
+Name: html/part-02/11.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bj+WGcHiLvLZLnfEAchPnQ==
+SHA1-Digest: Eyawdimagvx8wHKGR4yKUMyc5d8=
+
+Name: html/part-02/12.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: haySte/tipiBRjif9s2MZg==
+SHA1-Digest: 7Rhp8aBM8zZJAA8eaAZpe9m/0RQ=
+
+Name: html/part-02/13.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qwk0k6FuTyoKVDsw+fXOHg==
+SHA1-Digest: +8tKISPSvbWpJG9UlYS/kNZcNWE=
+
+Name: html/part-02/14.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RWeLn6szeCmsV9x0yClDSQ==
+SHA1-Digest: +kj8NSo0JFovsoFdK8nNlocdYbE=
+
+Name: html/part-02/15.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YSyAFvY1bRR/tXBRJXtJXw==
+SHA1-Digest: 48pxsKrizFvxZazvAwcXTdsjO28=
+
+Name: html/part-02/16.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4/Y0n3yRpQqUKHNn0jhzHQ==
+SHA1-Digest: 0RJLz+yhhM20zzj0JNEHts1Mgqk=
+
+Name: html/part-02/17.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KIz+Xi6pN+NDm4pK+/l95w==
+SHA1-Digest: pZhw+P7OrGVuF6xeYNJ/qPhcV+I=
+
+Name: html/part-02/18.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ccj2Rq/QwgwiGTnnU+mY9w==
+SHA1-Digest: KlDIsRXwmXpKxuZoWI909bclJmk=
+
+Name: html/part-02/18a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jqNJ/s8oUVPEGSHGilHwnQ==
+SHA1-Digest: l7Rx+WE71iOLAZP4kahe7UucUz4=
+
+Name: html/part-02/19.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lH+pOLeiwj4QsVj+rOYYnw==
+SHA1-Digest: YRVzmzdjtTOH4FK/NLS+8Y6RXnk=
+
+Name: html/part-02/20.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: v5bbhQI9WC6dF3TcWXGDYw==
+SHA1-Digest: J4744DVyOZYf3p6UfFWYG5L9YVM=
+
+Name: html/part-02/21.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tZ8sn36KbPi2UDc/5nqsMg==
+SHA1-Digest: MopxNrjLVzsF5utEykCa9qRkX84=
+
+Name: html/part-02/22.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: k4BewxImbgz9z8F6SnBMkA==
+SHA1-Digest: R7pNX+OA8578N6Ypbepy4Ps4Icw=
+
+Name: html/part-02/23.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: orifcf9YKmGQOZMZnpEVjw==
+SHA1-Digest: zV9r9QBZyu3x8dvvRrhdiMEv/kw=
+
+Name: html/part-02/23a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wo2/qyytIJoA8va8immxZw==
+SHA1-Digest: IoTUy22GdASKCHmdKYpESfjfLVs=
+
+Name: html/part-02/24.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ukyguPqwYW7FZWZDlq8Xig==
+SHA1-Digest: Ga9V3ffNCIPqkCnO9gov8bcy8pE=
+
+Name: html/part-02/25.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VKdlpvI4vIBBatXLGn/9Dw==
+SHA1-Digest: h+vfWqEk4qfRPbDwCDGVAGfxdfY=
+
+Name: html/part-02/8.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FFaGGSm0SHkiq8wj7URA7A==
+SHA1-Digest: q3tZefaNlGhVHJz0D8pqP9LBWK0=
+
+Name: html/part-02/9.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AS1fufVJyY9CEgah1MCksg==
+SHA1-Digest: YLCRRalF3I60BM0IgYjbU8hTO/k=
+
+Name: html/part-02/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3pbirW6Mnu8NZ4pUhr0i3Q==
+SHA1-Digest: T/BVEBBVtUy0EhCKiuQK/tHPtDY=
+
+Name: html/part-03/26.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f88wp3zkVNjI/Px1rROaMg==
+SHA1-Digest: vb8LdD48f47EIyUA9jItKUd5G80=
+
+Name: html/part-03/27.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0BaxAN78h9bXwga7sdSXCg==
+SHA1-Digest: JPXEg8BArwopoxMGMTLBi0Y7wiU=
+
+Name: html/part-03/28.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dASDQGQdHtV/3424w9Fg3w==
+SHA1-Digest: HxgNhuKp8iPm8XGmYpoOcCs7vtI=
+
+Name: html/part-03/29.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hRasczWJB1j2+73F1i6vBw==
+SHA1-Digest: 1idLecXemKj6rGADL/8uo+Dq8FM=
+
+Name: html/part-03/30.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hMifJmboJsenX7ByrL7xTw==
+SHA1-Digest: Ti3zBKh1xS6jHKWqk2Q72UuEhk8=
+
+Name: html/part-03/31.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tvwhjIBcue+UaKVHs4qiNw==
+SHA1-Digest: LIyZoRTRTRnzXue5ghzZ1nn8acI=
+
+Name: html/part-03/32.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zmEuGFtfmuNHphLYwVGZZw==
+SHA1-Digest: rBl5JCwEn1EU0bBfSt4zzCUiFj8=
+
+Name: html/part-03/33.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pLMMytIxOi5ciWGNTHsgdQ==
+SHA1-Digest: UUXAz3pqyKRcDcH5XGjEPV1tzRU=
+
+Name: html/part-03/34.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qnh2LWsPu3n/d1PtqEMGCw==
+SHA1-Digest: QOm3FSaw1baP69iDROLAwOTIkKo=
+
+Name: html/part-03/35.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5hkEjPc/VrNrLpQtF+a/uQ==
+SHA1-Digest: DIbLYhWviJtomDVCxkqTPg+8sAE=
+
+Name: html/part-03/36.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vtLjK+05f9reXK8XwKjr+Q==
+SHA1-Digest: rD8FTaOMvg+nImTilMKG3dO45bE=
+
+Name: html/part-03/37.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: htWXTOp+gCvWbIiCuzZ98A==
+SHA1-Digest: ayaSiuYR522Jfc08P4kMfPCzIv0=
+
+Name: html/part-03/38.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8zXQolh9BrLCgH29Os/DNA==
+SHA1-Digest: r93TZ9ay1j23d2khqKVbMXBHIzs=
+
+Name: html/part-03/39.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OqFLddW4Jk4GuEuwOuZjsA==
+SHA1-Digest: IUOwDKoFcyVQom35x9MjqF5LXPs=
+
+Name: html/part-03/40.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aJPu6eco7HjzpJKk6omD7A==
+SHA1-Digest: Xf0od3B2V5kKxsJdw/NehO1cUd4=
+
+Name: html/part-03/41.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sJ1tZ8d7y+qZeUc12wiXIQ==
+SHA1-Digest: qzhA1Zj6kRfXd05XfwPNQUsrK2I=
+
+Name: html/part-03/42.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bFJxgj79sRxxUnEHGvoyug==
+SHA1-Digest: FmJhvvnwyGVCY8d4taHZOe74WG0=
+
+Name: html/part-03/43.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RUeqYjVKtK3Trg3o2RMFTg==
+SHA1-Digest: KJG4byJrPmlTB10BrHyIKqSwVTM=
+
+Name: html/part-03/44.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pxX239Xg7VF44eLbsQHNkw==
+SHA1-Digest: b2O9GGmVGuAi7tJhfwutwvSbdS8=
+
+Name: html/part-03/45.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: inyzj4/EUw67OEkk4vCR8A==
+SHA1-Digest: D8UQQpN/HJJlz3sAgA1YL5ItIyI=
+
+Name: html/part-03/46.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SQ4UjoqYylVNT38PPs9ATg==
+SHA1-Digest: /D3VZZsMKtrZFRP+TG8SPDKqkSE=
+
+Name: html/part-03/47.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: E1JrFnls6LdTd4L8XzY+3A==
+SHA1-Digest: xCwPqmRNZwtnNEMS5y/qifVF+bw=
+
+Name: html/part-03/47a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qev0A2IH30jlj01XtmIyVQ==
+SHA1-Digest: s+7PfJ0XFICNzwp4U95wXRBqDmE=
+
+Name: html/part-03/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Q6cPiy3OkypMLdrQ8cmybQ==
+SHA1-Digest: MRcjS3pVfQ1nykBpByhrJ8mSXvk=
+
+Name: html/part-04/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: C37mg5Citx4U3jz9qyMjqA==
+SHA1-Digest: nSazesq4+dL5s8Fr1zUgObe0guo=
+
+Name: html/part-04/chapter-01/48.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rQpw2+QjOLVB5b4jCz801A==
+SHA1-Digest: /Y0jodxzUX0t1y+SXDFVGh90Yrs=
+
+Name: html/part-04/chapter-01/49.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 47k1Ne0kNaJjLnyTDi+7fg==
+SHA1-Digest: J9ExUL20ne29FaF3RJEuLctulF8=
+
+Name: html/part-04/chapter-01/50.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ymRN5SclUY8p4l1C+RDduw==
+SHA1-Digest: TghAiILFoCq9VBD6+oNRusM6zGk=
+
+Name: html/part-04/chapter-01/51.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HR520LplI+C2B/fuDBhyQA==
+SHA1-Digest: 22gDUz0QnxFPIZeyydovSi8jDYQ=
+
+Name: html/part-04/chapter-01/52.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /5GCDBJZK6Ar9FYHf5yJ2Q==
+SHA1-Digest: bsP6G01z4r/yd3pS6eJXFfozajg=
+
+Name: html/part-04/chapter-01/53.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LjmAINfzZ70NBKVf+i+8HQ==
+SHA1-Digest: u+WMVXeqd/7fmhun2JI1CVDUs+g=
+
+Name: html/part-04/chapter-01/54.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gVrRYr4TSIXweYC8Dh0k8Q==
+SHA1-Digest: JXqSMUjRtoMh3aZO1EgIvHY1gDw=
+
+Name: html/part-04/chapter-01/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cS4QeUoMwpNT689K8nJebQ==
+SHA1-Digest: 4n5qp/FyjM9YHRyGzBUJ1zGSvSc=
+
+Name: html/part-04/chapter-02/55.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bRohxkw4GK/v/A9mEq7JjQ==
+SHA1-Digest: klBAQLnBm8E7D60cEgEBpsyXAec=
+
+Name: html/part-04/chapter-02/56.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: g621VcC++58b2EyLOU8nhQ==
+SHA1-Digest: 9iMmYPdH0T9gPnBRVqoeqY437sE=
+
+Name: html/part-04/chapter-02/57.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0l15wy68Rfc594oN41bI8Q==
+SHA1-Digest: 1J0LZX2NMbGlzwHkdAZTnb3T+6s=
+
+Name: html/part-04/chapter-02/58.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RkK4+2tpPysmhG3MZ568NQ==
+SHA1-Digest: 57o5fOw7SNLzZrfLER52S0RnW5k=
+
+Name: html/part-04/chapter-02/58a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qavx1jGEi/mwtjJKqSaLrA==
+SHA1-Digest: X5A6od3IfJxunKsCnmttIGPgjhY=
+
+Name: html/part-04/chapter-02/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cZsDFdn0/pWxqF6vBmfhvg==
+SHA1-Digest: 7fXqfh+Zl3upCK0W7E6DYZxNY58=
+
+Name: html/part-04/chapter-03/59.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1ZKQs+m/Y0kn4IqmVKQxfg==
+SHA1-Digest: luM3ZpCz2KseN4Gy3e9chzW6qrA=
+
+Name: html/part-04/chapter-03/60.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2TF9nIbbLAkJdPDrWqqq0A==
+SHA1-Digest: nNsoXAFqJAZ/izMNYuCOnFySKd8=
+
+Name: html/part-04/chapter-03/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dYb06pHp/METGpm7Qagmuw==
+SHA1-Digest: BZm5xV1qdqd6tdLtIp+PQJG48X4=
+
+Name: html/part-04/chapter-04/61.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z465Ow/RuNjZp4u7jxg08w==
+SHA1-Digest: uRPqGCCENEteTAHNfPh9FSsrhx0=
+
+Name: html/part-04/chapter-04/62.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iJgreVlX7PXVxL2hVNBDNw==
+SHA1-Digest: ItHvKYThjhRZqU/ucqcsKxFUXIE=
+
+Name: html/part-04/chapter-04/63.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ajbNr5G5aafVZ8N3qmkziA==
+SHA1-Digest: nO486yfWmntGq+rMrKrHWxKGw0s=
+
+Name: html/part-04/chapter-04/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gBvafEMNPSUJWeShBSo35A==
+SHA1-Digest: 5X4pMjugZ0EQlgKER9KxrbbIbzI=
+
+Name: html/part-04/chapter-05/64.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q1xGU4wb2/UDlfWyQRIYMg==
+SHA1-Digest: boQHaF15NfggVfL7mww+Lj8eU8w=
+
+Name: html/part-04/chapter-05/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 77PRr13EeNy2HLfGz1w3Dw==
+SHA1-Digest: HU0BPeM/BFP0QCL9CmSOmwiIIiM=
+
+Name: html/part-05/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +I/12AMb7I+W91NeTsz+9w==
+SHA1-Digest: 183wxdl+vDwQlF+ifX3FmSKAFPM=
+
+Name: html/part-05/chapter-01/65.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lytCjrxBOl/OF4tGA2Fe+A==
+SHA1-Digest: 8DIw31VQueogPTMg8iwNJ8OfJdU=
+
+Name: html/part-05/chapter-01/66.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L4q1BgoL4uUxZv90JgMZ/Q==
+SHA1-Digest: 06NTvIk1QkFwMUg/Nva5J68xBlU=
+
+Name: html/part-05/chapter-01/67.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l8rBZJdy3JjFK5qzNyfruA==
+SHA1-Digest: R1gueWGHPAXjnAouHJHUh/uUUE0=
+
+Name: html/part-05/chapter-01/68.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r/5hn262WyMlff+DnwmtaQ==
+SHA1-Digest: PoAk/yDDXXKs/6H7H43PyBIYUbs=
+
+Name: html/part-05/chapter-01/69.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: emRz+EpzP2uhqMRMQY6VPw==
+SHA1-Digest: 0Mb87etx25yuy9AQoYuKdXBvyDE=
+
+Name: html/part-05/chapter-01/70.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aswqBIXUTcyHRL0Ux9uUoQ==
+SHA1-Digest: Cqa4W4Zg3iWqsB9q9UYKw/JUD4g=
+
+Name: html/part-05/chapter-01/71.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KjQqM5ElgcduDFKtpSj/pQ==
+SHA1-Digest: 0VfM1pPoVGSKCa7JFq5DW9bM9Yw=
+
+Name: html/part-05/chapter-01/72.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y+i1X1nj9+UO8AnIgXQxOA==
+SHA1-Digest: mAZW+FQDh8BwE5wC94nN3gY9xlI=
+
+Name: html/part-05/chapter-01/73.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nGfiRyBV0d8K1URPYOFvqg==
+SHA1-Digest: hV584IgT72kDImlYajPkXmXdWhY=
+
+Name: html/part-05/chapter-01/73a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q00Cfe+WqlxyjP05Ddbbdw==
+SHA1-Digest: U6cnej7rxepqwOAWo1cx4R96+IA=
+
+Name: html/part-05/chapter-01/74.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IMHDQFNi+YaHjE4wzUojeA==
+SHA1-Digest: FFp7SeJXGpv4xpOLoxjc25eXlCA=
+
+Name: html/part-05/chapter-01/75.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7ec+9gUIEtTiQl1EF1xUmA==
+SHA1-Digest: WJBOg6RX23mHiwBHFNUKrKcxIjg=
+
+Name: html/part-05/chapter-01/76.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5OD0W6VRt2KYyRdFd/x86w==
+SHA1-Digest: GCwgQPxCdUs9lQdh3IGXQHMrEe8=
+
+Name: html/part-05/chapter-01/77.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nxlwWmSannrRlQbP5EIaqQ==
+SHA1-Digest: WAqEJ888skFpAJPr8+BHB9offC0=
+
+Name: html/part-05/chapter-01/78.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GX7AWpiLhrzQxf65M3FtpQ==
+SHA1-Digest: zFCK8h/2c/vmqNJ/NFCETrclafI=
+
+Name: html/part-05/chapter-01/79.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +idmAi7xJya9mwPiunQzhQ==
+SHA1-Digest: BYJuv36o0tdgbaCPrvn9qN4r5xc=
+
+Name: html/part-05/chapter-01/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +ZR1AN2LzVg+0bKTzSAkAQ==
+SHA1-Digest: NtaTAb4wW6Rd0sYuNia9Pyjoncg=
+
+Name: html/part-05/chapter-02/80.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KV2Egh347GUH9DR6Dk/1Pg==
+SHA1-Digest: odiDGNJz0HVKySCCTfkOkH3r1Fs=
+
+Name: html/part-05/chapter-02/81.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +hGp1L//UTTiJoPy0tvwJA==
+SHA1-Digest: U540S/VKsB5jOGeYqhG9iBiOQnw=
+
+Name: html/part-05/chapter-02/82.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CUKw3kaLs6OJAyjf+sxprQ==
+SHA1-Digest: KJziMghC3b6V7SuAlfXTlnVvlTc=
+
+Name: html/part-05/chapter-02/83.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oMUGHPdFQf5LO+ohmCTzqA==
+SHA1-Digest: iCCZz2nGCQ6qT0TG8RRxGAwo0is=
+
+Name: html/part-05/chapter-02/84.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: N+hFxhtsun9AzloRxf9nkg==
+SHA1-Digest: StmT8T/w3MQW3xpQKhsmxEFJlRE=
+
+Name: html/part-05/chapter-02/85.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EfiXI8N7wBG9P54jcxGMBQ==
+SHA1-Digest: e9Bx7QJGbFSwp4hivvfnuG7RAL0=
+
+Name: html/part-05/chapter-02/86.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ybmokYpH123Yw9MMZRcrRA==
+SHA1-Digest: 2/YP35PufgC3P6oARsmdPAlqhaU=
+
+Name: html/part-05/chapter-02/87.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f2tES435XCZhkDEE6tK0qg==
+SHA1-Digest: 9FMTfqdHUPpPxzGDCK8KqIcA5Gw=
+
+Name: html/part-05/chapter-02/88.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2Y9NFGgRYphh25MTP732FQ==
+SHA1-Digest: fbcs7cKxXeStI6LTM6DnDCtEtDc=
+
+Name: html/part-05/chapter-02/89.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SHsZb/WmaWwWyiwyG5VY6A==
+SHA1-Digest: m4ACWzmfgkbcrEb7MNmg+6WgACQ=
+
+Name: html/part-05/chapter-02/90.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5tZ41Px4Jo5NmD3pk9vqfg==
+SHA1-Digest: xhnPAP/2Etvi/qIaE/NsnLNjwZk=
+
+Name: html/part-05/chapter-02/91.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bZ2Frxed4eEpFsmWJN8XaQ==
+SHA1-Digest: wMEg5bze2PxmK4MWpDiBl29cZDw=
+
+Name: html/part-05/chapter-02/92.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JPxTeNGw84r5QVu6XmaNOQ==
+SHA1-Digest: pQPSTogdI0+BZ+R8LqOXH4al1YU=
+
+Name: html/part-05/chapter-02/92a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7jRPajup5AuE5ewQSTbjyA==
+SHA1-Digest: /pAmNs2ftTm076L/fkf/tilKQmo=
+
+Name: html/part-05/chapter-02/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ORRcBNSYMiGsL3B7n5/0Zg==
+SHA1-Digest: 4ZbyxTHKn6HeDlYJh58ImURlmOU=
+
+Name: html/part-05/chapter-03/93.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IxFs1auSGn/bwQNVCBia2w==
+SHA1-Digest: RT6w2JTYqAcOFCa4i+gvPAi1OG8=
+
+Name: html/part-05/chapter-03/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 90oGGNvtscdJN4HDrKY+/A==
+SHA1-Digest: be82trV/1OToPUytpmgGeqN/XLY=
+
+Name: html/part-06/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /+AZcEmTD8lr1j4T+9G+Ag==
+SHA1-Digest: q3ReSPygHXJbIiZg8falLQ23ip4=
+
+Name: html/part-06/chapter-01/100.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6McrND7GdCoiYN4hZkwsLQ==
+SHA1-Digest: qhrtsqBMpEXJxkuNm2fiFIq6VZE=
+
+Name: html/part-06/chapter-01/101.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X3gjpVOghPqJRWCFkEBrUg==
+SHA1-Digest: n7TsST1LS/egHO/J3JKU5yzax+c=
+
+Name: html/part-06/chapter-01/102.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BHhWZ3bq3JN9flTbAWVhCQ==
+SHA1-Digest: rvzBmeiKIIGLhaeZjjHUahjqK4o=
+
+Name: html/part-06/chapter-01/103.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wydxdsp9a3Gsr+vUGrc+Tg==
+SHA1-Digest: +xrkXkFcxe1k5KIBumvpicDJXv8=
+
+Name: html/part-06/chapter-01/104.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l646c1e3FZCNtZgXZ9mEsQ==
+SHA1-Digest: L61cpnYTHYf+aVWH7EEU1apuEAo=
+
+Name: html/part-06/chapter-01/105.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MvGIlV5vd2vlFYhSmygkPg==
+SHA1-Digest: I8q49vy8Fq5gJvM+eY87yHwimpg=
+
+Name: html/part-06/chapter-01/106.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: N9b6Ur8okYaL8J5KflZmfg==
+SHA1-Digest: qy+/5xeJqYX75zlmDMpNEBm5HkA=
+
+Name: html/part-06/chapter-01/107.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1exkXWDi1KEBiwZ/kGmQGQ==
+SHA1-Digest: I10xKC7pFJl75g0PXRVxAiRxiO0=
+
+Name: html/part-06/chapter-01/108.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DLqsla9WzkSjkfCYlbx32g==
+SHA1-Digest: 8s9tAaRfrA7x0igXq5/sdQMQAlg=
+
+Name: html/part-06/chapter-01/109.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p20BF5+6QmFK3o63z/85fA==
+SHA1-Digest: Y9A7LK2BsdrSaMa8weW2pPizhOA=
+
+Name: html/part-06/chapter-01/110.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 67Xkkk1bV+KPPtae/diAKg==
+SHA1-Digest: C2d41Mzx/0y3bidWRiA/4RvUkqY=
+
+Name: html/part-06/chapter-01/111.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TOpHUK9wtiDaClUvb2Q+pA==
+SHA1-Digest: yMF9k4rq51F5PzFTrtkbPZ6tTHw=
+
+Name: html/part-06/chapter-01/112.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ja1ka48LWq2xWPU3dOpXwA==
+SHA1-Digest: grenjk38ZcYxQjxLfN4w+sRMdCs=
+
+Name: html/part-06/chapter-01/113.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Fl8mFOjyNJDqfIFFig/0nQ==
+SHA1-Digest: Rk5MMNeXpIQWz8rH+vectGTe90k=
+
+Name: html/part-06/chapter-01/94.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qvS3pGG1iOvXINwRwYDSXQ==
+SHA1-Digest: /sy1ERgrRoEC5zQRP++S9OhYdLw=
+
+Name: html/part-06/chapter-01/95.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ietgcBgu3Z1WURyh6AI/lg==
+SHA1-Digest: fyXkb/xIhewZuDekGFzoCp9pHNI=
+
+Name: html/part-06/chapter-01/96.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XTFi8RzAvQ8V4oDkkOEvwg==
+SHA1-Digest: nOq95MmnLWOobp+atx9bJxcAhKw=
+
+Name: html/part-06/chapter-01/97.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +mRSSEuzNsHbk7VBVzEzSw==
+SHA1-Digest: g7n9vMNP1TNWYHahOfjSmsX/S8g=
+
+Name: html/part-06/chapter-01/98.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pkwINLgdjb+GyojaHd3A/Q==
+SHA1-Digest: e/5uoAbuOTsapslnQPZ3RzpbmmE=
+
+Name: html/part-06/chapter-01/99.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wvF+qSlKPcxidiIbshnx2w==
+SHA1-Digest: 7+O63qhxqNIP4CS8B0Vvssb7+k0=
+
+Name: html/part-06/chapter-01/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: x6lyzzFFXcgj6MCJgiBNXQ==
+SHA1-Digest: mdoIamgUPWhBKJoJd7cB7Ju2RqQ=
+
+Name: html/part-06/chapter-02/114.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TzTYjGXxUqPZP+dN/lczzQ==
+SHA1-Digest: WZQ0/rwX6pEEqWOsIzxPHlM+r2s=
+
+Name: html/part-06/chapter-02/115.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QwWMDgGqZiRBWJt45WC2ZA==
+SHA1-Digest: 8P5batgj/nLDH4nKFYAB3gDP/M8=
+
+Name: html/part-06/chapter-02/116.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uSo1fJJDTKmVQCBsSFEQbg==
+SHA1-Digest: Db9vjIuEJaoDBJXC5uy1h/tQo+c=
+
+Name: html/part-06/chapter-02/116a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YeAgnBKhX6D4X68p2/s0Fg==
+SHA1-Digest: VPpe4r6zd3fDpe8gFaxBciHmsCo=
+
+Name: html/part-06/chapter-02/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2qU3Wlythla7n0hr0i1PLg==
+SHA1-Digest: ty7dVmSUD3wNd74j+C8eKIJizeA=
+
+Name: html/part-06/chapter-03/117.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: U6EzkoBWPfzWDEquzfAZ0A==
+SHA1-Digest: HnvYwOVOYWZcDuV+ohU4VVZL4vM=
+
+Name: html/part-06/chapter-03/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QBcPpFt8ixYZquJqUmmgoA==
+SHA1-Digest: 76pAAbdcjvXdzmqjRArFzUYYg6o=
+
+Name: html/part-07/118.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0pVZR2I0VzENuKpX8XDnlQ==
+SHA1-Digest: RxlgiOMWq2+GNQlPcVgukDJqAiE=
+
+Name: html/part-07/119.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TbIGwulXT5L8txvhzZP1Dg==
+SHA1-Digest: 4GyOw3ESFdOstoR4EK5FW/hKWfk=
+
+Name: html/part-07/120.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cJ7/WoxovmRtNNMK9w271A==
+SHA1-Digest: hcSepAADCGPTu21FK9rYxyVy6ns=
+
+Name: html/part-07/121.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XrNjzrXYJAodQe2QSDaHMA==
+SHA1-Digest: ovou8EUd291NUZI5LYKtbvkfesE=
+
+Name: html/part-07/122.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4i/ekah0bWbOSZ1pUkyA7w==
+SHA1-Digest: s5B2XoVMzNKlCaAjpFPjbvDNeQk=
+
+Name: html/part-07/123.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AFN8Pf+trmHX2uhPniXkSQ==
+SHA1-Digest: rKX6FaYZahdT/ZUCxVz8BvfpCf4=
+
+Name: html/part-07/124.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FXYYqG6SFyJExrB+eBBwHg==
+SHA1-Digest: vibIXDQXXYVuY/nZDAN+l3PRprM=
+
+Name: html/part-07/125.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AaLvFd6tLvXiy5OPXlNiWQ==
+SHA1-Digest: XxEQXr0DdvLTTx14t3MlF+MIHqI=
+
+Name: html/part-07/126.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OLLhvqIRQP4cYzjXaPYBbg==
+SHA1-Digest: kJwbWPO/CQOBsrNifuUDlawYw1k=
+
+Name: html/part-07/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ATBxEL6wCcpPdBFL9vWHUQ==
+SHA1-Digest: 2q3dcineFlzUFR4E5Uaz3kJHBt8=
+
+Name: html/part-08/127.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3NltmrdsbXwzfIv1zfCDjw==
+SHA1-Digest: LB8haMTMqu2/A00UG3hvix9ww8M=
+
+Name: html/part-08/128.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YaxJhn7dSqU6nmge6gXJNg==
+SHA1-Digest: czRCHybCupZiqPGTdqiQ6DhfAAo=
+
+Name: html/part-08/129.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8qsrCbVzY4UGQcM7seThgQ==
+SHA1-Digest: GXA4Xt2k9k3od+sSCkdnDpn/R8A=
+
+Name: html/part-08/130.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6Jm9FKakZ1T2vAobc05ssw==
+SHA1-Digest: V0uVumGKqyabnb3rFEBDNoHetGg=
+
+Name: html/part-08/131.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9XdxqBR40vx8b+6BUK0Ubw==
+SHA1-Digest: 3ebe2agBz8bFGXfeKCXdVR07WCQ=
+
+Name: html/part-08/132.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ANLuUiSbjZos5RVSp4kRBA==
+SHA1-Digest: jXTngKravCPJM8SOw3R2xV3EcAE=
+
+Name: html/part-08/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jEX6jBtOw2Fykxtd+rmwMg==
+SHA1-Digest: qZBcVwa21g4sQGhNlWjkPMQUEME=
+
+Name: html/part-09/index - Copy.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CbBEfbnuLXyT033H/y7E2A==
+SHA1-Digest: eVI+1k6qyU5Po0xbW+wnyHLRLpM=
+
+Name: html/part-09/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EqBWhnTdBb82s2HUckGw9w==
+SHA1-Digest: zcZs9yLntMudx5GyoHOeJSstfCk=
+
+Name: html/part-09/chapter-01/133.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JzIqSrIQ6MN80Rv1Byf6rw==
+SHA1-Digest: Z2g0diR6Vf35L1b3Rg8zjcPAwEk=
+
+Name: html/part-09/chapter-01/134.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oAQOVu6mlmcqX3UzqtXTWA==
+SHA1-Digest: RvE4i3Kf2lWPehZvtIhvgZr5kJA=
+
+Name: html/part-09/chapter-01/135.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jhTtm1kiJS4Mr4fd/pfH4w==
+SHA1-Digest: TUOYcH7YuPwzIPiFQ0j7Qn8+TSc=
+
+Name: html/part-09/chapter-01/136.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pU1xH1SWRepJFCaiv7mFog==
+SHA1-Digest: mXXtdRiyVFa/mC08aOsv3BEl8rM=
+
+Name: html/part-09/chapter-01/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Mtj8Jp2zlZVg7GLDIqqDdg==
+SHA1-Digest: kbzNwFEoqjsKlr8EaVvsU1q2oAQ=
+
+Name: html/part-09/chapter-02/137.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /zcOnS5TAWG06Q+ZK2Qh6Q==
+SHA1-Digest: i4APlO/LS2q209aLaXO63Eq4vWs=
+
+Name: html/part-09/chapter-02/138.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: H5rH0/kvBh2N97XgGM3Zgg==
+SHA1-Digest: SP0jA/2eTV6zGSdtNWNJacYcm+8=
+
+Name: html/part-09/chapter-02/139.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l2ySrCN9syp+1m58foMe1Q==
+SHA1-Digest: fZ2+OMwVDBMEj7K3EVsgJMSS4l4=
+
+Name: html/part-09/chapter-02/140.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X/xiYug7n1l6NLk/i1ORjA==
+SHA1-Digest: eh8QPjG+dfJ04pN6wafH7myMuRU=
+
+Name: html/part-09/chapter-02/141.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CbBEfbnuLXyT033H/y7E2A==
+SHA1-Digest: eVI+1k6qyU5Po0xbW+wnyHLRLpM=
+
+Name: html/part-09/chapter-02/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tNQ2GHTcHT4ZxJ9mSHTn4A==
+SHA1-Digest: jzP66sg7f/yCNu0LNbAmjTiLJuA=
+
+Name: html/part-09a/141a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 29dZSm3stM7pClQ1QKaYmQ==
+SHA1-Digest: ug6nrRh2ZF9dx2SWf7ITBNm6gRc=
+
+Name: html/part-09a/141b.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pTWcoQwJBxpNpw2goPhY/A==
+SHA1-Digest: NEsapHvNacQhY2uRVAL5A0DGRyo=
+
+Name: html/part-09a/141c.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +uRURu7q8vaVTAe7I58eOA==
+SHA1-Digest: t/cAfRUbx8V9QtNX+Ve6N8TB2q8=
+
+Name: html/part-09a/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bRkAJMiUK49CtTqfbMSN3A==
+SHA1-Digest: pytchjbboo3PbZbf2h+kaVNFubU=
+
+Name: html/part-10/142.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uEb+spk1mfIizVzBziHGmQ==
+SHA1-Digest: 4pFakGDUUfNDZvpqLXCGHnh0+aQ=
+
+Name: html/part-10/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: F9SxRf20tw+SOWleI0Vy8Q==
+SHA1-Digest: 5vZrkHSPXHbNyrZmqAQjYb0m43A=
+
+Name: html/part-11/143.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: II7ThfQrZuemeSa5Ap2www==
+SHA1-Digest: FBZTKxnVpn4gTaXbytwmPEOkwaA=
+
+Name: html/part-11/144.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +BqfZkLxckJI+F5OKNWq0w==
+SHA1-Digest: 0YNuNkkVQyJ6Ocpt0O+vGiXqy/k=
+
+Name: html/part-11/145.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 81fnqB0gDLC817rWEaW0sw==
+SHA1-Digest: e8Jk36wWtjZyECm7aT3MUwotmEI=
+
+Name: html/part-11/145a.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1gCly20UZNrpkqX29hTklQ==
+SHA1-Digest: q1sFNOn+gyhN5xiYIJ7AOU+luy4=
+
+Name: html/part-11/146.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Uw53YM2yfnUr9KvOPQRtMA==
+SHA1-Digest: eeFtmV/XJzyF0q2a+cfCmhfzP2I=
+
+Name: html/part-11/147.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EtdCeAKxo1QS1ypSU/EbQA==
+SHA1-Digest: F/B2fUWXywDVGUQsu35tSjivMJs=
+
+Name: html/part-11/148.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2QIOp041d67oBldtM9wvrw==
+SHA1-Digest: 3JP/2O+Ct1g9c9OfC+LIs2HzMuE=
+
+Name: html/part-11/149.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yRnuKv/h8FdSNrX6jF7xHw==
+SHA1-Digest: fbZW3DPmfbc3xSYEZaFWlxE12cE=
+
+Name: html/part-11/150.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZMilpsjS9ly8IUnxqO4oaA==
+SHA1-Digest: gy/a3Gltpo9ubvWHznK2FrxlWIM=
+
+Name: html/part-11/151.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xXD/XC/fKgUpU7JaFnUEuA==
+SHA1-Digest: BKA5SgZNM7OEq/7TnBy+zffAk3E=
+
+Name: html/part-11/152.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BdZGWZdMzVSTOciFPwxRdQ==
+SHA1-Digest: mJIonBPvDe8XDiqxulLcLm3SpXE=
+
+Name: html/part-11/153.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RqivQats86T2ZnBsea7QPw==
+SHA1-Digest: /aFrLd04yXMm3QwObKfyiMZbA60=
+
+Name: html/part-11/index.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1J5o0gOSapu8p1jMQ0opGA==
+SHA1-Digest: 7AqPFpBPSQHLxnGd//tyDC5ad8M=
+
+Name: images/author.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YR0lmiE+51B03YlCWrAthg==
+SHA1-Digest: UdHvEOR1YiNS3iz/8mzcjY+L1TY=
+
+Name: images/favicon.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ISszUI8VZ2HMjx0gWbUDGg==
+SHA1-Digest: JkkCJPoMmvSUtcD/yVQum0cGRgA=
+
+Name: scripts/app.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: scripts/jquery-1.11.2.min.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V5Dq1607onOXrt+j0mO4Zw==
+SHA1-Digest: gTBUTCFf5dHsCB2DRhv0pxHnSII=
+
+Name: scripts/jquery.mobile-1.4.5.min.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Oe5vIHUfT7BlOGKuVvnLug==
+SHA1-Digest: /FXTZ8cnK93oBw+FGvRYS7wQsug=
+
+Name: styles/app.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UuR5K2XnFwcPnduM0ZUq5A==
+SHA1-Digest: YdxEj++mLC/lSEHjRd9sKPbRErk=
+
+Name: styles/jquery.mobile-1.4.5.min.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uDWwS7/1qAIMMc4hcU44mw==
+SHA1-Digest: iJf2j//HLHL8pRpcWUVMlmKD04E=
+
+Name: META-INF/ids.json
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: V7Zrm5PFGAxuTbvEpyf4Gw==
+SHA1-Digest: S9AZeyF8X1fA26PaOc0oThal3m8=

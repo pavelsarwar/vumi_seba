@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> জমি ক্রয়ের পর <br>ক্রেতা ও মালিকের কর্তব্য</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+	
+<p>জমি ক্রয়ের পর নতুন মালিকের কতকগুলি আবশ্যকীয় কর্তব্য আছে। এ কর্তব্য দ্রুত পালন না করলে মামলা মোকদ্দমায় জড়িয়ে পড়ার আশঙ্কা থাকে। সুতরাং জমি ক্রয়ের পর একজন ভূমি মালিকের কর্তব্য নিন্মরুপঃ<br>
+১।  জমি রেজিস্ট্রি করার পর খরিদা জমি দখল, সীমানা নির্ধারণ এবং জমি ব্যবহার তথা চাষাবাদ বা বাড়ীঘর নির্মান করা।<br>
+২। রেজিস্ট্রি অফিস হতে মূল দলিল গ্রহন করা।<br>
+৩। মুল দলিল প্রাপ্তিতে বিলম্ব হওয়ার সম্ভাবনা থাকলে দলিলের সার্টিফাইড কপি নেওযার ব্যবস্থা করা।<br>
+৪। মিউটেশন/ নামজারী করার জন্য সহকারী কমিশনার (ভূমি) এর অফিসে দলিলের সত্যায়িত কপিসহ নির্ধারিত ফিস দিয়ে নির্ধারিত ফরমে আবেদন করে মিউটেশন /নামজারি করানোর ব্যবস্থা করা।<br>
+৫। মিউটেশন/নামজারি মঞ্জুর হলে আদেশপত্রের সার্টিফাইড কপি এবং নতুন খতিয়ানের সার্টিফাইড পর্চা গ্রহন করার ব্যবস্থা করা।<br>
+৬। মিউটেশন মোতাবেক জমির ভূমি উন্নয়ন কর নিয়মিত পরিশোধ করার ব্যবস্থা করা ।<br>
+৭। জমি ক্রয়ের পর উহা বিক্রেতার দখলে রাখা অত্যন্ত বিপজ্জনক ও ঝুঁকিপূর্ন । কারণ অসাধু মালিক কর্তৃক তার দখল দেখিয়ে অন্য ক্রেতার নিকট পুনরায় বিক্রি করার সুযোগ থাকে।<br>
+৮। মিউটেশন অথবা নামজারি না করলে বিক্রেতা কর্তৃক পুনরায় জমি বিক্রি করার সুযোগ থাকে।<br>
+৯। নিয়মিত ভূমি উন্নয়ন কর অথবা লোন পরিশোধ না করলে জমি নিলাম হয়ে যেতে পারে।<br>
+১০। ভালভাবে জমির সীমানা চিহ্নিত করে না রাখলে অন্যেরা অনধিকার প্রবেশ করার সুযোগ পাবে।<br>
+১১। ভূমি মালিকের দায়িত্ব ভূমির কর নিয়মিত পরিশোধ করা, জমি ব্যবহার তথা চাষাবাদ বা অন্য কার্যক্রমে ব্যবহার ও রক্ষনাবেক্ষন করা ।
+
+</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

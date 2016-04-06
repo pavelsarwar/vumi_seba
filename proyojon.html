@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> যা জানা আপনার অবশ্যই প্রয়োজন</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+
+  	<div data-role="main" class="ui-content">
+	
+<p>#	নামজারি/খারিজ এবং নিয়মিত ভূমি উন্নয়ন কর প্রদানের মাধ্যমে জমি নিষ্কন্টক রাখুন এবং ভবিষ্যতের জন্য নিরাপদে থাকুন।<br><br>
+#	নামজারি/খারিজের আবেদন সরাসরি সহকারী কমিশনার (ভূমি) এর নিকট জমা দিতে হয়, এ বিষয়ে অন্য কোন ব্যক্তির দ্বারস্থ হলে আপনি প্রতারিত ও আর্থিকভাবে ক্ষতিগ্রস্থ হতে পারেন।<br><br>
+#	আপনার জমির নামজারি অনুমোদন হওয়ার পরপরই আবশ্যিকভাবে ডি.সি.আর ও প্রস্তাবিত খতিয়ানের কপি সংগ্রহ করতঃ ভূমি উন্নয়ন কর প্রদান করে হোল্ডিং খুলুন এবং জমির অন্যান্য কাগজপত্রের সাথে যতœসহকারে ভবিষ্যতের জন্য সংরক্ষণ করুন।<br><br>
+#	জমি কেনার আগে অবশ্যই জমির সঠিক মালিকানা, হাল রেকর্ড অনুযায়ী খতিয়ান ও দাগ নম্বর, নকশা মোতাবেক অবস্থান, পরিমাণ, হিস্যা মোতাবেক বিক্রেতার প্রাপ্য অংশ, কোন রেন্ট সার্টিফিকেট মামলা অথবা হালসন পর্যন্ত ভূমি উন্নয়ন কর পরিশোধ এবং নামজারি/খারিজ করা আছে কিনা, তাতে খাস/অর্পিত/সরকারী কোন প্রতিষ্ঠানের সম্পত্তির অংশ রয়েছে কিনা তা যাচাই করে কিনবেন। নচেৎ আপনি জমি ক্রয় করতে গিয়ে সাথে একটি মামলা অথবা অন্য কোন সমস্যাকেও আলিঙ্গন করলেন।<br><br>
+#	জমি রেজিস্ট্রেশনের আগে সম্ভ্যাব্য দলিলটি শুরু থেকে শেষ পর্যন্ত নিজে ভালোভাবে পড়ুন এবং তাতে দাতা/বিক্রেতার এবং ক্রেতার নাম রেকর্ড/সূত্রদলিল/জাতীয় পরিচয়পত্র অনুযায়ী সঠিক আছে কিনা, হস্তান্তরিত জমির মৌজার নাম, হাল রেকর্ড অনুযায়ী জে.এল. নং, খতিয়ান ও দাগ নম্বর, হস্তান্তরিত জমির পরিমাণ ও অবস্থান তথা চৌহদ্দি, একাধিক দাগে হস্তান্তরের ক্ষেত্রে কোন দাগে কি পরিমাণ হস্তান্তরিত হবে তা সঠিকভাবে লিখিত হয়েছে কিনা তা নিশ্চিত হয়ে দলিলে স্বাক্ষর করবেন বা টিপসই দেবেন। মনে রাখবেন না পড়ে অথবা না জেনে অন্ধের মতো স্বাক্ষর করলে বা টিপসই দিলে আপনি ভবিষ্যতে হয়তো বড় ধরণের সমস্যায় অথবা জটিলতায় পড়তে পারেন।<br><br>
+#	বন্টননামা/বাটোয়ারা দলিলের ক্ষেত্রে কোন্ পক্ষ কোন্ দাগে এবং কোন্ অবস্থানে কত অংশ পাবে তা অবশ্যই উল্লেখ করতে হবে। নয়তো ভবিষ্যতে বড় ধরণের সমস্যায় পড়তে পারেন।<br><br>
+#	অবৈধভাবে নদী, খাল, বিল, জলাভূমি, সরকারী সম্পত্তি দখল থেকে বিরত থাকুন এবং ভূমি দস্যুদের বিরুদ্ধে সামাজিক প্রতিরোধ গড়ে তুলুন, কারণ এরা দেশ ও জাতির শত্রু।<br><br>
+#	ভূমি সংক্রান্ত যে কোন কাজের জন্য “ভূমি সেবা কেন্দ্র” উপজেলা ভূমি অফিস, মান্দা, নওগাঁ এ সরাসরি যোগাযোগ করুন। </p>
+
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

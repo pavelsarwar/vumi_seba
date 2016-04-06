@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> হিন্দু উত্তরাধিকার <br>আইনের বিভিন্ন পদ্ধতি</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+	<p><strong>হিন্দু আইনে দুই ধরনের উত্তরাধিকার পদ্ধতি চালু আছে: </strong>(ক) মিতক্ষরা পদ্ধতি (খ) দায়ভাগ পদ্ধতি। <br>
+পশ্চিমবঙ্গ এবং বাংলাদেশে দায়ভাগ পদ্ধতি অনুসরণ করা হয়। মিতক্ষরা পদ্ধতি বাকি অঞ্চলে প্রচলিত।<br>
+<strong>বন্টনযোগ্য সম্পত্তি ও বন্টনের নিয়ম: </strong><br>১। পুত্র/পুত্রগণ থাকলে তারাই সমুদয় সম্পত্তি পাবে। হিন্দু উত্তরাধিকার আইনের বিধান অনুযায়ী নিকটবর্তী পুরুষ ওয়ারিশ থাকলে পরবর্তীরা সম্পত্তি পাবে না।<br>
+২। কোন নারী উত্তরাধিকারী সম্পত্তি প্রাপ্ত হলে তিনি জীবন স্বত ¡(সীমিত ভোগদখলের অধিকার) হিসেবে সম্পত্তি পাবেন। নারী উত্তরাধিকারী মারা গেলে সমুদয় সম্পত্তি মূল মৃত ব্যক্তির কাছে ফিরে যাবে। মূল মৃত ব্যক্তির পরবর্তী  উত্তরাধিকারী সম্পত্তি পাবে। কোন পুরুষ উত্তরাধিকারী সম্পত্তি না হওয়া পর্যন্ত এভাবে সম্পত্তি বারবার মুল মৃত ব্যক্তির কাছে ফিরে যাবে।<br>
+৩। মৃত ব্যাক্তির স্ত্রীর অংশ প্রুত্র থাকলে স্ত্রী ১ প্রত্রের সমান অংশ পাবে। একাধিক স্ত্রী থাকলে স্ত্রীর অংশ স্ত্রীদের মধ্যে তুলাংশে বন্টন হবে।<br>
+৪। মৃত ব্যাক্তির সম্পত্তি বন্টনের সময় অংশীদারদের মধ্যে যদি কোন অংশীদার মারা যায় তার উত্তরাধিকারগণ ওয়ারিশ হবে।<br>
+৫। স্বামীর মৃত্যুর পর জীবনস্বত্ব (Life Interest) ভোগ করেন। তার মৃত্যর পর উক্ত সম্পত্তি পুত্রদের মধ্যে বন্টন করে দেওয়া হয়। <br>
+৬। দত্তক প্রত্র স্বাভাবিকপ্রুত্রের ১/৩ অংশ মালিক হয়।<br>
+৭। হিন্দু আইনে সন্ন্যাসী উত্তরাধিকার হয় না। সংসার ত্যাগী হিসাবে মৃত ধরা হয়।<br>
+
+<strong>স্ত্রীধন:</strong> স্ত্রীধন বলতে স্ত্রীর সম্পত্তিকে বুঝায়। দায়ভাগ প্রনেতা জিমুতবাহনের ভাষায় স্বামীর জীবদ্দশায় যে সমস্ত সম্পত্তির উপর স্ত্রীর নিরংকুশ অধিকার থাকে তাই স্ত্রীধন। হিন্দু আইনে নারীরা জীবনস্বত্ব ছাড়া অন্যভাবে উত্তরাধিকারী হিসেবে সম্পত্তি পায় না। কিন্তু কিছু ক্ষেত্রে নারীরা সম্পত্তি অর্জন করে পুরুষের মতো নিরংকুশ অধিকার লাভ করে সে সম্পত্তিকে স্ত্রীধন বলে।<br>
+<strong>নিম্নোক্ত বিষয়াদি স্থ্রীধন হিসেবে গণ্য করা হয়: </strong>ক) স্বামী প্রদত্ত স্থাবর সম্পত্তি ব্যতিরেকে আত্মীয়স্বজন থেকে দান।<br>
+খ) বিবাহের যজ্ঞাগ্নিকালে অথবা বর গৃহাভিমুখে যাত্রাকালিন সময়ে  আগন্তক কর্তৃক প্রদত্ত দান সকল/উপহার সামগ্রী।</p>
+
+
+
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

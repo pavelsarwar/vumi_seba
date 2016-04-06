@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> জমি ক্রয়কালে <br>ক্রেতাকে যা দেখতে হবে</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+  	<div data-role="main" class="ui-content">
+	
+<p>	
+১.	জরিপের মাধ্যমে প্রণীত খতিয়ান ও নক্সা যাচাই করতে হবে।<br>
+২.	জমির তফসিল অর্থাৎ মৌজা, খতিয়ান ও দাগ নম্বর, দাগে জমির পরিমাণ প্রভৃতি সঠিকভাবে জানতে হবে।<br>
+৩.	প্রযোজ্য ক্ষেত্রে সি.এস, এস,এ ও আর.এসসহ সর্বশেষ জরিপের পর্চা দেখতে হবে।<br>
+৪.	বিক্রেতা ক্রয়সূত্রে মালিক হলে তার মালিকানার যোগসূত্র নিশ্চিত হতে হবে। অথাৎ ভায়া দলিল দেখতে হবে এবং বিক্রেতার নামে নামজারী আছে কি না তা নিশ্চিত হতে হবে।<br>
+৫.	বিক্রেতা উত্তরাধিকারসূত্রে মালিক হলে পূর্ব মালিকানা ক্রমানুসারে মিলাতে হবে।<br>
+৬.	উত্তরাধিকারসূত্রে জমির ক্ষেত্রে বন্টননামা (ফারায়েজ ) দেখে নেয়া যেতে পারে।<br>
+৭.	জরিপ চলমান এলাকায় বিক্রেতার মাঠপর্চা যাচাই করে দেখতে হবে।<br>
+৮.	বিক্রেতার দেয়া দলিল, বায়া দলিল, খতিয়ান/পর্চা ইত্যাদি কাগজপত্র সংশ্লিষ্ট ভূমি অফিসে গিয়ে জমাবন্দি (২ নং রেজিস্টার ) রেজিস্টারের সাথে মিলিয়ে দেখতে হবে।<br>
+৯.	নামজারী পর্চা, ডি.সি.আর, খাজনার দাখিলা (রশিদ) যাচাই করে দেখতে হবে। বকেয়া খাজনাসহ জমি ক্রয় করলে বকেয়া খাজনা পরিশোধের দায় ক্রেতার।<br>
+১০.	জমিটি সার্টিফিকেট মামলাভূক্ত কিনা তা ভূমি অফিস হতে জানা যায়, সার্টিফিকেট মামলাভূক্ত সম্পত্তি বিক্রয়যোগ্য নয় (পি.ডি.আর এ্যাক্ট এর ৭ ধারা )।<br>
+১১.	জমিটি খাস, পরিত্যক্ত বা অর্পিত (ভি.পি) কিনা, অধিগ্রহণকৃত বা অধিগ্রহণের জন্য নোটিশকৃত কিনা, তা ইউনিয়ন ও উপজেলা ভূমি অফিস বা জেলা প্রশাসকের কার্যালয়ের এল,এ শাখা থেকে জেনে নিতে হবে।<br>
+১২.	বিবেচ্য জমি কোন আদালতে মামলাভূক্ত কিনা জেনে নিতে হবে।<br>
+১৩.	জমি সরেজমিনে দেখে এর অবস্থান নক্সার সাথে মিলিয়ে বিক্রেতার দখল নিশ্চিত হওয়া প্রয়োজন।<br>
+১৪.	সরকার নির্ধারিত ফি দিয়ে স্থানীয় সাব-রেজিস্ট্রার এবং জেলা রেজিস্ট্রারের অফিসে তল্লাশি দিয়ে বিবেচ্য জমির হেবা, এওয়াজ ও ক্রয়-বিক্রয়ের সর্বশেষ তথ্য জেনে নেয়া প্রয়োজন।<br>
+১৫.	প্রস্তাবিত জমিটি ঋণের দায়ে কোন ব্যাংক বা সংস্থার নিকট দায়বদ্ধ কিনা তা দেখা প্রয়োজন।<br>
+১৬.	প্রস্তাবিত জমিতে যাতায়াতের রাস্তা আছে কিনা তাও দেখা প্রয়োজন।<br>
+১৭.	প্রস্তাবিত জমিতে বিক্রয়ের ক্ষেত্রে সরকারী কোন বিধি-নিষেধ আছে কিনা তা দেখা প্রয়োজন।<br>
+১৮.	মালিক কাউকে আমমোক্তার বা অ্যাটর্নি নিয়োগ করেছেন কিনা তা দেখা প্রয়োজন।<br>
+১৯.	জমির কাগজপত্র শুদ্ধতা যাচাইয়ের দায়িত্ব টাকার বিনিময়ে কাউকে দিয়ে করালে তার নিকট থেকে নিজে ভালোভাবে বুঝে নিতে হবে।
+
+</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
