@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="../images/favicon.ico">
+	<link href="../styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+    <script src="../cordova.js"></script>
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>রংপুর বিভাগ</h1>
+			<a href="../app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">রংপুর</a>
+	<a href="Tel:+88052162121" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫২১৬২১২১</a>
+	<a href="Tel:+8801713201818" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩২০১৮১৮</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">দিনাজপুর</a>
+	<a href="Tel:+88053165001" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫৩১৬৫০০১</a>
+	<a href="Tel:+8801713201685" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩২০১৬৮৫</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">গাইবান্ধা</a>
+	<a href="Tel:+88054151226" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫৪১৫১২২৬</a>
+	<a href="Tel:+8801718444090" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৮৪৪৪০৯০</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">কুড়িগ্রাম</a>
+	<a href="Tel:+88058161645" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫৮১৬১৬৪৫</a>
+	<a href="Tel:+8801713202384" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩২০২৩৮৪</a>
+
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">লালমনিরহাট</a>
+	<a href="Tel:+88059162020" class="ui-link-inherit" data-role="button" data-theme="b">ফোন  +৮৮০৫৯১৬২০২০</a>
+	<a href="Tel:+8801713201501" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩২০১৫০১</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">নীলফামারী</a>
+	<a href="Tel:+88055161329" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫৫১৬১৩২৯</a>
+	<a href="Tel:+8801715081480" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৫০৮১৪৮০</a>
+
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">পঞ্চগড়</a>
+	<a href="Tel:+88056861200" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫৬৮৬১২০০</a>
+	<a href="Tel:+8801713200803" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩২০০৮০৩</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">ঠাকুরগাঁও</a>
+	<a href="Tel:+88056152011" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০৫৬১৫২০১১</a>
+	<a href="Tel:+8801715170365" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৫১৭০৩৬৫</a>
+	
+
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

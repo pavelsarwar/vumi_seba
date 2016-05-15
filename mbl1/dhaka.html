@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="../images/favicon.ico">
+	<link href="../styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+    <script src="../cordova.js"></script>
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="html/index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>ঢাকা বিভাগ</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">ঢাকা</a>
+
+	<a href="Tel:++88029556628" class="ui-link-inherit" data-role="button" data-theme="b">ফোন+৮৮০২৯৫৫৬৬২৮</a>
+	<a href="Tel:+8801713048580" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ+৮৮০১৭১৩০৪৮৫৮০</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">ফরিদপুর</a>
+	<a href="Tel:+88063163022" class="ui-link-inherit" data-role="button" data-theme="b">ফোন  +৮৮০৬৩১৬৩০২২</a>
+	<a href="Tel:+8801741118886" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ ++৮৮০১৭৪১১১৮৮৮৬</a>
+	
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">নরসিংদী</a>
+	<a href="Tel:+88029452500" class="ui-link-inherit" data-role="button" data-theme="b">ফোন+৮৮০২৯৪৫২৫০০</a>
+	<a href="Tel:+8801715049433" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ+৮৮০১৭১৫০৪৯৪৩৩</a>
+	
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">গাজীপুর</a>
+	<a href="Tel:+88029264300" class="ui-link-inherit" data-role="button" data-theme="b">ফোন+৮৮০২৯২৬৪৩০০</a>
+	<a href="Tel:+8801713003489" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ+৮৮০১৭১৩০০৩৪৮৯</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">গোপালগঞ্জ</a>
+	<a href="Tel:+88026685521" class="ui-link-inherit" data-role="button" data-theme="b">ফোন+৮৮০২৬৬৮৫৫২১</a>
+	<a href="Tel:+8801715168498" class="ui-link-inherit" data-role="button" data-theme="b">+৮৮০১৭১৫১৬৮৪৯৮</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">কিশোরগন্জ</a>
+	<a href="Tel:+88094161755" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০৯৪১৬১৭৫৫</a>
+	<a href="Tel:+8801713457357" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩৪৫৭৩৫৭</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">মাদারীপুর</a>
+	<a href="Tel:+88066162777" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০৬৬১৬২৭৭৭</a>
+	<a href="Tel:+880172660422" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭২৬৬০৪২২</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">মানিকগন্জ</a>
+	<a href="Tel:+88027710395" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০২৭৭১০৩৯৫</a>
+	<a href="Tel:+8801715108097" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৫১০৮০৯৭</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">মুন্সিগন্জ</a>
+	<a href="Tel:+88027611100" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০২৭৬১১১০০</a>
+	<a href="Tel:+8801713041708" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩০৪১৭০৮</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">নারায়নগন্জ</a>
+	<a href="Tel:+88027646644" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০২৭৬৪৬৬৪৪</a>
+	<a href="Tel:+8801713081353" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৩০৮১৩৫৩</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">রাজবাড়ী</a>
+	<a href="Tel:+88064165405" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০৬৪১৬৫৪০৫</a>
+	<a href="Tel:+8801715120431" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ+৮৮০১৭১৫১২০৪৩১</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">শরীয়তপুর</a>
+	<a href="Tel:+88060161610" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০৬০১৬১৬১০</a>
+	<a href="Tel:+8801715193893" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০৬০১৬১৬১০</a>
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">টাঙ্গাইল</a>
+	<a href="Tel:+88092162390" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০৯২১৬২৩৯০</a>
+	<a href="Tel:+8801715228566" class="ui-link-inherit" data-role="button" data-theme="b">মোবাইলঃ +৮৮০১৭১৫২২৮৫৬৬</a>
+	
+
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
