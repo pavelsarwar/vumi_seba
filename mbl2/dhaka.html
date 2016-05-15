@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="../images/favicon.ico">
+	<link href="../styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+    <script src="../cordova.js"></script>
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="html/index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>ঢাকা বিভাগ</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+
+	<a href="Tel:+029862488" class="ui-link-inherit" data-role="button" data-theme="b">ঢাকা  +০২৯৮৬২৪৮৮</a>
+	<a href="Tel:+027630544" class="ui-link-inherit" data-role="button" data-theme="b">নারায়নগন্জ  +০২৭৬৩০৫৪৪</a>
+	<a href="Tel:+069162474" class="ui-link-inherit" data-role="button" data-theme="b">মুন্সিগন্জ +০৬৯১৬২৪৭৪</a>
+	<a href="Tel:+027710607" class="ui-link-inherit" data-role="button" data-theme="b">মানিকগন্জ  +০২৭৭১০৬০৭</a>
+	<a href="Tel:+062862537" class="ui-link-inherit" data-role="button" data-theme="b">নরসিংদী  +০৬২৮৬২৫৩৭</a>
+	<a href="Tel:+88094161760" class="ui-link-inherit" data-role="button" data-theme="b">কিশোরগন্জ  +০৯৪১৬১৭৬০</a>
+	<a href="Tel:+88092153545" class="ui-link-inherit" data-role="button" data-theme="b">টাঙ্গাইল  +০৯২১৫৩৫৪৫</a>
+	<a href="Tel:+88063162602" class="ui-link-inherit" data-role="button" data-theme="b">ফরিদপুর +০৬৩১৬২৬০২</a>
+	<a href="Tel:+88092153545" class="ui-link-inherit" data-role="button" data-theme="b">রাজবাড়ী  +০৬৪১৬৫৮৪৫</a>
+	<a href="Tel:+88066161555" class="ui-link-inherit" data-role="button" data-theme="b">মাদারীপুর ০৬৬১৬১৫৫৫</a>
+	<a href="Tel:+88060161612" class="ui-link-inherit" data-role="button" data-theme="b">শরীয়তপুর ০৬০১৬১৬১২</a>
+	<a href="Tel:+88066855446 " class="ui-link-inherit" data-role="button" data-theme="b">গোপালগন্জ ০৬৬৮৫৫৪৪৬</a>
+	<a href="Tel:+88029252521" class="ui-link-inherit" data-role="button" data-theme="b">গাজীপুর  ০২৯২৫২৫২১</a>
+	
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
