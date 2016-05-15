@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>সাব-রেজিস্ট্রার অফিস<br>(সেবা প্রদান প্রতিশ্রুতি)</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	<p style="text-align:center"><strong>সেবা প্রদান প্রতিশ্রুতি: (Service Delivery Charter)</strong><br>
+	<strong>মন্ত্রণালয়ের নাম :</strong> <br>আইন, বিচার ও সংসদ বিষয়ক মন্ত্রণালয়<br>
+<strong>কেন্দ্রীয়ভাবে নিয়ন্ত্রণকারী প্রতিষ্ঠান :</strong> <br>নিবন্ধন পরিদপ্তর<br>
+<strong>জেলা পর্যায়ে নিয়ন্ত্রণকারী প্রতিষ্ঠান :</strong> <br>জেলা রেজিষ্টরের কার্যালয়<br>
+<strong>সেবাদানকারী প্রতিষ্ঠান :</strong><br> সাব-রেজিস্টারের কার্যালয়<br><br>
+<strong>সাব-রেজিস্টারের কার্যালয়ের সাংগঠনিক কাঠামো</strong></p>
+
+                                                                                            
+<table class="table table-bordered" style="font-size:12px;">
+				<tr>
+				  <td class="warning">পদবী	</td>
+				  <td class="info">সংখ্যা</td>
+				 </tr>
+				
+<tr><td>সাব-রেজিস্টার	   </td> <td> ০১ </td></tr>	
+<tr><td> অফিস সহকারী	  </td> <td> ০১ </td></tr>	
+<tr><td>  মোহরার	 </td> <td> ০২ </td></tr>	
+<tr><td>  টি সি মোহরার	 </td> <td>  ০১</td></tr>	
+<tr><td> এমএলএসএস	  </td> <td> ০১ </td></tr>	
+<tr><td>   নকল নবীশ	</td> <td>  প্রয়োজনীয় সংখ্যক</td></tr>		
+				
+				</table>
+				
+				
+				<table class="table table-bordered" style="font-size:10px;">
+				<tr>
+				  <td class="warning">           সেবার ধরণ	</td>
+				  <td class="info">সেবা প্রাপ্তির সময়সীমা</td>
+				  <td class="warning">সেবা প্রদানকারী কর্মকর্তা/কর্মচারীর পদবী<br> ও উর্ধতন কর্তৃপক্ষ	</td>
+				  
+				 </tr>
+				
+  	
+<tr><td>দলিল রেজিস্ট্রিকরণ এবং <br>মোক্তারনামা তসদিককরণ </td> <td>	০১ দিন	</td> <td>সাব-রেজিস্টার সংশ্লিষ্ট <br>উপজেলা/থানা/এলাকা	<br>জেলা রেজিস্টার</td></tr>
+<tr><td>রেজিস্ট্রিকরণ অন্তে<br> মূল দলিল ফেরত প্রদান</td> <td>	অফিস ভেদে ০১ মাস <br>থেকে ০১ বছর বা তদুর্ধ</td> <td>	       ঐ<br>	ঐ</td></tr>
+<tr><td>তসদিককৃত মোক্তারনামা <br>ফেরত প্রদান	</td> <td>০১ দিন</td> <td>	        ঐ<br>	 ঐ</td></tr>
+<tr><td>দলিলের নকল <br>সরবরাহ</td> <td>০১ হতে ০৭ দিন	 </td> <td>  ঐ<br> ঐ</td></tr>
+<tr><td>সম্পত্তি হস্তান্তর<br> সংক্রান্ত তথ্য সরবরাহ</td> <td>	০১ হতে ০৭ দিন	</td> <td>       ঐ	<br> ঐ</td></tr>
+<tr><td>দলিল মুসাবিদাকরণ/প্রস্তুতকরণ/<br>লিখন বিষয়ে সহায়তা প্রদান	</td> <td>০১ দিন</td> <td>	সনদপ্রাপ্ত <br>দলিল লেখক <br>	সাব-রেজিস্টার</td></tr>
+<tr><td>দলিলমুসাবিদাকরণ/প্রস্তুতকরণ/<br>লিখন/রেজিস্ট্রিকরণে বিষয়ে সহায়তা প্রদান	</td> <td>০১ দিন	</td> <td>        ঐ<br>	 ঐ</td></tr>
+<tr><td>দলিলের নকল বা তথ্য <br>সংগ্রহের বিষয়ে সহায়তা প্রদান</td> <td>	০১ দিন	</td> <td>সনদপ্রাপ্ত দলিল <br>লেখক/তল্লাশকারী	<br>ঐ</td></tr>
+<tr><td>মূল দলিল সংগ্রহে <br>সহায়তা প্রদান</td> <td>০১ দিন</td> <td>	ঐ	<br>ঐ</td></tr>
+<tr><td>যে কোন আবেদন, দরখাস্ত<br> ইত্যাদি লিখনে সহায়তা প্রদান</td> <td>	০১ দিন	</td> <td>ঐ<br>	ঐ</td></tr>
+	
+				
+				</table>
+
+<p>
+<strong>বি: দ্র:</strong> ১। স্থাবর অস্থাবর সম্পত্তির হস্তান্তর দলিল রেজিস্ট্রি করা হয়।<br>
+        ২। দলিল রেজিস্ট্রির জন্য গ্রহণের পর বালামে নকলপূর্বক তাহা স্থায়ীভাবে সংরক্ষণ করা হয়।<br>
+        ৩। কোন দলিল হারিয়ে/ধ্বংস হয়ে বা দলিলের লেখা অস্পষ্ট হয়ে গেলে সংশ্লিষ্ট ব্যাক্তি/অন্য যেকোন 
+             ব্যাক্তি তার প্রয়োজনে এখান থেকে দলিলের নকল  সংগ্রহ করতে পারেন।<br>
+        ৪। প্রত্যাশী ব্যাক্তি বা সংস্থা তল্লাশির মাধ্যমে হস্তান্তরিত দলিল সংক্রান্ত সকল তথ্য পেতে পারেন।<br>
+        ৫। প্রত্যাশিত ব্যাক্তি বা সংস্থা তল্লাশি করে এখান থেকে দলিল লেখক/তল্লাশকারীর মাধ্যমে এন.ই.সি.
+             পেতে পারেন।     </p>
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
