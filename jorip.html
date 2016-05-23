@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1> জরিপ শেষে জমির রেকর্ড <br>সংশোধনের মামলা দায়েরকরণ </h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+<p>
+<strong>ধরুন ভূমি জরিপ শেষ হয়েছে, আপনার জমি অন্যের নামে রেকর্ড হয়ে গেছে। এখন আপনি কি করবেন?</strong><br><br>
+	
+              উত্তরঃ জরিপ চুড়ান্ত প্রকাশ ও গেজেট বিজ্ঞপ্তির পর আপনি রেকর্ড সংশোধন মামলা দায়ের করতে পারেন। আর এটি করতে হবে গেজেট বিজ্ঞপ্তির ০১ বছরের মধ্যে ল্যান্ড সার্ভে ট্রাইবুন্যালে। তবে উপযুক্ত কারণ দর্শানো সাপেক্ষে অতিরিক্ত ০১ বছর সময় পাওয়া যায়। ১৯৬০ সালের প্রজাসত্ত্ব আইনের ১৪৫ এ(২) ধারা অনুসারে ল্যান্ড সার্ভে ট্রাইব্যুনাল গঠিত হয়েছে।
+ঢাকা সিটি জরিপের ১৯১ টি মৌজার নকশা ও রেকর্ড সংশোধনের জন্য ল্যান্ড সার্ভে ট্রাইব্যুনাল গঠিত হয়েছে।<br><br>
+
+               আপীল: ল্যান্ড সার্ভে ট্রাইব্যুনালে রায়ের বিপরীতে ল্যান্ড সার্ভে আপীল ট্রাইব্যুনালে আপীল করা যায়। তবে ঢাকা সিটি জরিপের জন্য অদ্যাবধি আপিল ট্রাইব্যুনাল গঠিত হয়নি। এক্ষেত্রে মহামান্য সুপ্রীম কোর্টের হাইকোর্ট ডিভিশনে আপীল করা যাবে।
+
+
+
+
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
