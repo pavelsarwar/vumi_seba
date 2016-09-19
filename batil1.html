@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>দলিল বাতিল <br>করতে হয় কিভাবে? </h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+
+	
+
+<p>
+
+
+
+               মনে করুন আপনার একটি দলিল বা আইনি ডকুমেন্ট ছিল, যা অন্যের হস্তগত হয়েছে, কিংবা সেটির এমন পর্যায়ে রয়েছে, যার কার্যকারিতা বহাল থাকলে আপনার জন্য সমস্যার তৈরী হতে পারে। দলিল বাতিল করার এরকম কোন প্রয়োজন পড়লে আদালতের শরণাপন্ন হয়ে কাজটি করা যায়।<br><br>
+
+              আমাদের সুনির্দিষ্ট প্রতিকার আইনের ৩৯ হতে ৪১ ধারা পর্যন্ত আদালত কর্তৃক দলিলাদি বাতিলকরণ বিষয়ে বর্ণিত হয়েছে। ৩৯ ধারা মতে, কোন ব্যাক্তি যার বিরুদ্ধে লিখিত চুক্তি অবৈধ বা বাতিলযোগ্য, যার যুক্তিসঙ্গত আশংকা রয়েছে যে, তেমন দলিল যদি অনিস্পন্ন অবস্থায় ছেড়ে দেওয়া হয়, তাহলে সেটি তার গুরুতর ক্ষতির কারণ হতে পারে, সেক্ষেত্রে ঐ ব্যাক্তি তা বাতিল বা বাতিলযোগ্য ঘোষণার জন্য মামলা দায়ের করতে পারেন এবং আদালত তার ইচ্ছাধীন ক্ষমতাবলে তেমন রায় প্রদান করতে এবং ”চুক্তি বিলুপ্ত” হিসাবে ত্যাগ করবার নির্দেশ প্রদান করতে পারেন।<br><br>
+
+              দলিলটি যদি রেজিস্ট্রেশন আইন অনুসারে রেজিস্ট্রিকৃত হয়ে থাকে, তাহলে আদালত ডিক্রির একটি কপি সেই সংশ্লিষ্ট অফিসারের কাছে প্রেরণ করবেন, যার অফিসে উক্ত দলিল রেজিস্ট্রি করা হয়েছে এবং সেই অফিসার সেই বইয়ে দলিলের নকলে সেটির বিলুপ্তির বিষয় লিপিবদ্ধ করবেন। তামাদি আইন ১৯০৮ এর ৯১ ধারা অনুসারে যে দলিল বাতিলের জন্য প্রার্থনা করা হয়, সে দলিল সর্ম্পকে জানবার বা অবগত হবার ০৩ বছরের মধ্যে মামলা দাখিল করতে হবে, নয়তো এ ধরনের মামলা তামাদি হয়ে যাবে এর কোন প্রতিকার পাওয়া যাবে না। অবশ্য এ ধরনের মামলা তামাদি হয়ে গেলে সুনির্দিষ্ট প্রতিকার আইনের ৪২ নং ধারা অনুসারে ”ডিক্লারেশন মামলা” দায়ের করে ভিন্নভাবে প্রতিকার পাবার সুযোগ আছে।
+
+
+
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
