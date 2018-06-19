@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="../images/favicon.ico">
+	<link href="../styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+    <script src="../cordova.js"></script>
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="../index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>সিলেট বিভাগ</h1>
+			<a href="../app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">সিলেট</a>
+	<a href="Tel:+880821716117" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৮২১৭১৬১১৭</a>
+	<a href="Tel:+880822256002" class="ui-link-inherit" data-role="button" data-theme="b">বালাগন্জ +৮৮০৮২২২৫৬০০২</a>
+	<a href="Tel:+880822356260" class="ui-link-inherit" data-role="button" data-theme="b">বিয়ানীবাজার +৮৮০৮২২৩৫৬২৬০</a>
+	<a href="Tel:+880822456178" class="ui-link-inherit" data-role="button" data-theme="b">বিশ্বনাথ +৮৮০৮২২৪৫৬১৭৮</a>
+	<a href="Tel:+880822556014" class="ui-link-inherit" data-role="button" data-theme="b">কোম্পানীগন্জ +৮৮০৮২২৫৫৬০১৪</a>
+	<a href="Tel:+880822656076" class="ui-link-inherit" data-role="button" data-theme="b">ফেনচুগন্জ  +৮৮০৮২২৬৫৬০৭৬</a>
+	<a href="Tel:+8808227756019" class="ui-link-inherit" data-role="button" data-theme="b">গোপালগন্জ +৮৮০৮২২৭৭৫৬০১৯</a>
+	<a href="Tel:+880822856038" class="ui-link-inherit" data-role="button" data-theme="b">গোয়াইনঘাট +৮৮০৮২২৮৫৬০৩৮</a>
+	<a href="Tel:+880822956052" class="ui-link-inherit" data-role="button" data-theme="b">জৈন্তাপুর +৮৮০৮২২৯৫৬০৫২</a>
+	<a href="Tel:+8808233356063" class="ui-link-inherit" data-role="button" data-theme="b">কানাইঘাট +৮৮০৮২৩৩৩৫৬০৬৩</a>
+	<a href="Tel:+880823256053" class="ui-link-inherit" data-role="button" data-theme="b">জকিগন্জ +৮৮০৮২৩২৫৬০৫৩</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">সুনামগন্জ</a>
+	<a href="Tel:+88087161454" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৮৭১৬১৪৫৪</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="b">বিশ্বম্ভরপুর দুঃখিত</a>
+	<a href="Tel:+88087141028" class="ui-link-inherit" data-role="button" data-theme="b">ছাতক +৮৮০৮৭১৪১০২৮</a>
+	<a href="Tel:+880872456143" class="ui-link-inherit" data-role="button" data-theme="b">দিরাই +৮৮০৮৭২৪৫৬১৪৩</a>
+	<a href="Tel:+880872575007" class="ui-link-inherit" data-role="button" data-theme="b">ধর্মপাশা +৮৮০৮৭২৫৭৫০০৭</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="b">দোয়ারাবাজার দুঃখিত</a>
+	<a href="Tel:+880872756059" class="ui-link-inherit" data-role="button" data-theme="b">জগন্নাথপুর +৮৮০৮৭২৭৫৬০৫৯</a>
+	<a href="Tel:+88072856024" class="ui-link-inherit" data-role="button" data-theme="b">জামালগন্জ +৮৮০৭২৮৫৬০২৪</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="b">তাহেরপুর দুঃখিত</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="b">শাল্লা দুঃখিত</a>
+	<a href="Tel:+88087141028" class="ui-link-inherit" data-role="button" data-theme="b">দক্ষিণ সুনামগন্জ +৮৮০৮৭১৪১০২৮</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">হবিগন্জ</a>
+	<a href="Tel:+88083163317" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৮৩১৬৩৩১৭</a>
+	<a href="Tel:+880832256003" class="ui-link-inherit" data-role="button" data-theme="b">আজমিরিগন্জ +৮৮০৮৩২২৫৬০০৩</a>
+	<a href="Tel:+880832456014" class="ui-link-inherit" data-role="button" data-theme="b">বানিয়াচং +৮৮০৮৩২৪৫৬০১৪</a>
+	<a href="Tel:+880832356032" class="ui-link-inherit" data-role="button" data-theme="b">বাহুবল +৮৮০৮৩২৩৫৬০৩২</a>
+	<a href="Tel:+880832556026" class="ui-link-inherit" data-role="button" data-theme="b">চুনারুঘাট +৮৮০৮৩২৫৫৬০২৬</a>
+	<a href="Tel:+88083265009" class="ui-link-inherit" data-role="button" data-theme="b">লাখাই +৮৮০৮৩২৬৫০০৯</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="b">মাধবপুর দুঃখিত</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="b">নবীগন্জ দুঃখিত</a>
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">মৌলভিবাজার</a>
+	<a href="Tel:+88086152460" class="ui-link-inherit" data-role="button" data-theme="b">সদর +৮৮০৮৬১৫২৪৬০</a>
+	<a href="Tel:+880862256052" class="ui-link-inherit" data-role="button" data-theme="b">বড়লেখা +৮৮০৮৬২২৫৬০৫২</a>
+	<a href="Tel:+88624560239" class="ui-link-inherit" data-role="button" data-theme="b">কুলাউড়া +৮৮৬২৪৫৬০২৩৯</a>
+	<a href="Tel:+880862575526" class="ui-link-inherit" data-role="button" data-theme="b">রাজানগর +৮৮০৮৬২৫৭৫৫২৬</a>
+	<a href="Tel:+880862356331" class="ui-link-inherit" data-role="button" data-theme="b">কমলগন্জ +৮৮০৮৬২৩৫৬৩৩১</a>
+	<a href="Tel:+880862671438" class="ui-link-inherit" data-role="button" data-theme="b">শ্রীমঙ্গল +৮৮০৮৬২৬৭১৪৩৮</a>
+
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

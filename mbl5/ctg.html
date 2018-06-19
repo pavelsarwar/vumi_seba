@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="../images/favicon.ico">
+	<link href="../styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="../styles/jquery.mobile-1.4.5.min.css">
+    <script src="../cordova.js"></script>
+	<script src="../scripts/jquery-1.11.2.min.js"></script>
+	<script src="../scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="html/index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>চট্টগ্রাম বিভাগ</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">চট্টগ্রাম</a>
+	
+	<a href="Tel:+8801711045372" class="ui-link-inherit" data-role="button" data-theme="b">ফোন   +৮৮০১৭১১০৪৫৩৭২</a>
+	
+	
+	<!--<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">বান্দরবান</a>
+	<a href="Tel:+88" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮</a>-->
+	
+	
+
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">ব্রাক্ষণবাড়িয়া</a>
+	<a href="Tel:+8801711061177" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০১৭১১০৬১১৭৭</a>
+
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">চাঁদপুর</a>
+	<a href="Tel:+8801710947049" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০১৭১০৯৪৭০৪৯</a>
+	
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">কুমিল্লা</a>
+	<a href="Tel:+8801715091155" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০১৭১৫০৯১১৫৫</a>
+	
+
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">কক্সবাজার</a>
+	<a href="Tel:+8801725324020" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০১৭২৫৩২৪০২০</a>
+	
+
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">ফেনী</a>
+	<a href="Tel:+8801716960618" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০১৭১৬৯৬০৬১৮</a>
+	
+	<!--<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">খাগড়াছড়ি</a>
+
+	<a href="Tel:+88" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮</a>
+	
+
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">লক্ষীপুর</a>
+	<a href="Tel:+88" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮</a>-->
+	
+	
+	<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">নোয়াখালী</a>
+	<a href="Tel:+8801711761231" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮০১৭১১৭৬১২৩১</a>
+
+	
+	<!--<a href="#" class="ui-link-inherit" data-role="button" data-theme="a">রাঙ্গামাটি</a>
+	<a href="Tel:+88" class="ui-link-inherit" data-role="button" data-theme="b">ফোন +৮৮</a>-->
+	
+	
+	
+
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="../index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
