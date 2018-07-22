@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>একসনা বন্দোবস্ত </h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+              
+একসনা বন্দবস্তি প্রকৃতপক্ষে কোন বন্দোবস্তি নহে। ইহা সাময়িকভাবে জমি চাষ বা ব্যবহার করিবার লাইসেন্স মাত্র। সুতরাং, একসনা লীজ বা বন্দোবস্তি কোন মালিকানা, টেনেনসী অধিকার বা দখল অধিকার সৃষ্টি করে না। <br><br>
+নির্দিষ্ট সময় অন্তে বা ৩০ শে চৈত্র তারিখে একসনা লীজভূক্ত জমির দখল স্বয়ংক্রিয়ভাবে সরকারে বর্তায়। উপর্যুপরি কয়েক বৎসরের নিরবিচ্ছিন্ন একসনা লীজও কোন মালিকানা বা দখল অধিকার সৃষ্টি করে না।  <br><br>
+         একসনা লীজ বা ডিসি-আর মাধ্যমে রাজস্ব প্রদানের ভিত্তিতে ১২ বৎসরের উর্ধ্বকাল খাস জমি বা চরের জমি ভোগ-দখল দাবী করিয়া প্রায় সময় মালিকানা দাবী করা হয়। <br><br>
+		 এই দাবী আইনতঃ অগ্রাহ্য, কেননা সরকারি জমিতে জবর দখল বা (adverse possession) মাধ্যমে মালিকানা প্রতিষ্ঠায় সময়কাল ৬০ বৎসর। জবর দখল বলিতে প্রকাশ্য বিরোধিতামূলক বেদখল বুঝায়।<br><br>
+		 একসনা লীজ বা ডিসি-আর মাধ্যমে দখল অনুমতি দখল (permision) প্রকাশ্য বিরোধিতামূলক জবরদখল নয়। <br><br>
+           একসনা লীজ বা ভাড়া কোন প্রকার দখল স্বত্ব সৃষ্টি করে না বিধায়, লীজ মেয়াদ শেষে লীজপ্রাপ্ত ব্যক্তি সম্পত্তির দখলে থাকিতে পারিবে না এবং প্রয়োজনে তাহাকে উচ্ছেদ করা হইবে। লীজ বা ভাড়া মেয়াদ শেষে সম্পত্তির দখল স্বয়ংক্রিয়ভাবে সরকারের নিকট প্রত্যর্পিত হয়। 
+
+
+			  
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

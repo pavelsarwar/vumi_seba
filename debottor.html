@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>দেবোত্তর সম্পত্তির ব্যবস্থাপনা</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+              
+প্রত্যেক জেলার কালেক্টর ও জেলা প্রশাসক পদাধিকার বলে সকল দেবোত্তর সম্পত্তির ট্রাস্টি। রাষ্ট্রীয় অধিগ্রহণ ও প্রজস্বত্ব আইন ১৯৫০-এর ৫৮ (৪) ধারা ও সরকারের ২২/৮/৫৬ ইং তারিখে ১০২৯১ নম্বর মেমোরেন্ডামে জেলা প্রশাসককে এই ক্ষমতা অর্পণ করা হয়েছে। রাষ্ট্রীয় অধিগ্রহণ ও প্রজাস্বত্ব আইনের ৩ ধারার আওতায় দেবোত্তর সম্পত্তি ট্রাস্টের অনুকূলে অর্জিত হয়। <br><br>
+উক্ত অর্জিত সম্পত্তির পরিচালনা ও ব্যবস্থাপনার জন্য প্রত্যেকটি দেবোত্তর সম্পত্তির এক একজন সেবায়েত নিয়োগ করা হয় বা সেবায়েত নিয়োজিত থাকে। সেবাইত ট্রাস্টির কর্মচারী (Trustee’s Employee) হিসাবে দায়িত্ব পালন করেন। ৫৮(৪) ধারার বিধান মোতাবেক সরকার বার্ষিক ট্রাস্টি বৃত্তি দেবোত্তর সম্পত্তির ট্রাস্টিকে পরিশোধ করে থাকেন।<br><br>
+ যেহেতু দেবোত্তর সম্পত্তির ট্রাস্টি জেলা প্রশাসক, তাই জেলা প্রশাসক নিজেই সরকারের পক্ষে ট্রাস্টিকে অর্থ বার্ষিক বৃত্তি (এ্যানুইটি) হিসাবে পরিশোধ করেন। তিনি একটি ব্যক্তিগত খতিয়ান হিসাব রক্ষণাবেক্ষণ করেন এবং মন্দিরের সেবাকার্য ও অন্যান্য ধর্মীয় ও দাতব্য প্রতিষ্ঠানের কার্যাবলী সম্পাদনের জন্য দায়দায়িত্ব বহন করেন। 
+
+
+
+
+			  
+			  
+			  
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

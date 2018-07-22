@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>বিভিন্ন প্রকার খতিয়ান <br> চেনার উপায় ও পদ্ধতি</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+<strong>CS খতিয়ান চেনার উপায়:</strong><br>
+১. এটা উপর থেকে নিচে লম্বালম্বি ভাবে থাকবে, <br>
+২. এপিট ওপিট উভয় পৃষ্ঠায় হবে,<br>
+৩. প্রথম পৃষ্ঠায় জমিদার এবং প্রজার নামে দুইটা ভাগ থাকবে, <br>
+৪. সবার উপরে লেখা থাকবে “বাংলাদেশ ফরম নং ৫৪৬৩” (এটা সব ফরমে একই থাকবে),<br>
+৫. অপর পৃষ্ঠায় “উত্তর সীমানা” নামে একটা কলাম থাকবে। <br><br>
+
+<strong>RS খতিয়ান চেনার উপায়:</strong><br>
+
+১. ফরম এর সবার উপরে হাতের ডান পাশে লেখা থাকবে “রেসার্তে নং”,<br>
+২. আগে সাধারণত ২ পৃষ্ঠায় হত, এখন এই খতিয়ান ১ পৃষ্ঠায় হয়, <br>
+৩. এটাও উপর থেকে নিচে লম্বালম্বি ভাবে হয়।<br><br>
+
+<strong>SA খতিয়ান চেনার উপায়:</strong><br>
+১. এই খতিয়ান সব সময় আড়াআড়ি ভাবে হয়,<br>
+২. এইটা সবসময় হাতে লিখা হয় (প্রিন্ট হবেনা),<br>
+৩. এই খতিয়ানে সাবেক খতিয়ানের (CS) এবং হাল নম্বরটা থাকবে,<br>
+৪. এইটা এক পৃষ্ঠায় হবে।<br><br>
+
+<strong>Mutation খতিয়ান চেনার উপায়:</strong><br>
+১. এই খতিয়ানের বাম পাশে হাতে লেখা থাকবে “নামজারি”।<br><br>
+
+<strong>City Survey খতিয়ান চেনার উপায়: </strong><br>
+১. এই খতিয়ানে ৯ টা কলাম থাকবে, <br>
+২. এতে আরো বলা থাকবে কি ধরনের জমি নিয়ে খতিয়ানটা (যেমন: লাল জমি, পুকুর)। 
+
+
+ 
+
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

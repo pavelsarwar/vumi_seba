@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>নিষেধাজ্ঞা</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+              
+<strong>অস্থায়ী নিষেধাজ্ঞাঃ </strong><br>মামলা চলাকালীন বিবাদী যাহাতে মামলার বিষয়বস্তুর হস্তান্তর বা কোন প্রকার রূপান্তর ঘটাইতে না পারে অথবা অন্য কোন প্রকারে মামলার বিষয়বস্তুর কোন ক্ষতিসাধন করিতে না পারে সেই জন্য মামলা নিষ্পত্তি না হওয়া পর্যন্ত বিবাদীকে এই কার্য হইতে বিরত থাকার জন্য সাময়িকভাবে যে আদেশ দেওয়া হয় তাহাকেই অস্থায়ী নিষেধাজ্ঞা বলা হয়। (সুনির্দিষ্ট প্রতিকার আইনের ৫৩ ধারা)<br><br>
+
+<strong>আন্তর্বর্তীকালীন নিষেধাজ্ঞা (Ad-interim Injunction): </strong> <br>নিষেধাজ্ঞা মঞ্জুর করার পূর্বে কেন নিষেধাজ্ঞা জারি করা হইবে না, সেই মর্মে কারণ দশাইবার জন্য বিবাদী প্রতিপক্ষকে নোটিশ দিতে হইবে। তবে যদি আদালতের নিকট প্রতীয়মান হয় যে, বিলম্বের ফলে নিষেধাজ্ঞার উদ্দেশ্য ব্যাহত হইবে, তদব্যবস্থায় অপর পক্ষকে নোটিশ না দিয়াও অস্থায়ী নিষেধাজ্ঞা জারি করা যাইবে। যেই ক্ষেত্রে অপর পক্ষকে পূর্বে কারণ দর্শাইবার সুযোগ না দিয়া একই সাথে অস্থায়ী নিষেধাজ্ঞা ও কারণ দর্শাইবার নোটিশ দেওয়া হয় তাহাকেই বলা হয় অন্তর্বর্তীকালীন নিষেধাজ্ঞা। অন্তর্বর্তীকালীন নিষেধাজ্ঞা দেওয়া হইলে আদালত যথাসম্ভব শীঘ্র উভয় পক্ষের বক্তব্য শ্রবণ করিয়া উক্ত নিষেধাজ্ঞার অবসান, পরিবর্তন বা রদ করিতে পারিবেন।<br><br> 
+
+<strong>আদেশের নিষেধাজ্ঞা (Mandatory Injunction): </strong><br> অনেক ক্ষেত্রে এমন হয় যে, বাদীপক্ষ আদালত হইতে নিষেধাজ্ঞা নেওয়ার উদ্যোগের সাথে বিবাদীপক্ষ তাড়াহুড়া করিয়া অবাঞ্চিত কাজটি করিয়া বসে। এমতাবস্থায় নিষেধাজ্ঞা জারি অনেক সময় অর্থহীন হইয়া পড়ে। নিষেধাজ্ঞা জারি যেহেতু এক ধরনের ন্যায়ভিত্তিক প্রতিকার, অতএব আদালত সেই ক্ষেত্রে আইনের শাসন বলবৎ করার উদ্দেশ্যে কেবল নিষেধাজ্ঞা জারিই করিবেন না পরন্তু নিষেধাজ্ঞা জারির অব্যবহিত পূর্বে বিরোধীয় সম্পত্তির যেই অবস্থা ছিল তাহা ফিরাইয়া আনিবার জন্য যথোপযুক্ত আদেশ দান করিতে পারিবেন। এই প্রকার আদেশ দানকে বলা হয় আদেশমূলক নিষেধাজ্ঞা। <br><br>
+
+<strong>চিরস্থায়ী নিষেধাজ্ঞাঃ  </strong>চিরস্থায়ী নিষেধাজ্ঞা শুধুমাত্র শুনানির পর মামলার গুণাগুণ বিচার করিয়া প্রদত্ত ডিক্রি দ্বারা মঞ্জুর করা যায়। এইরূপ নিষেধাজ্ঞার মাধ্যমে বিবাদীকে চিরস্থায়ীভাবে এমন একটি অধিকার প্রয়োগ বা কাজ করা হইতে বিরত থাকার নির্দেশ দেওয়া হয় যাহা বাদীর অধিকারের বিপরীত। (সুনির্দিষ্ট প্রতিকার আইন-এর ৫৪ ধারা)<br><br>
+
+
+<strong>নিষেধাজ্ঞা প্রার্থনা যে সব ক্ষেত্রে না-মঞ্জুর হয়ঃ </strong><br>
+সুনির্দিষ্ট প্রতিকার আইনের ৫৬ ধারার বিধান অনুযায়ী নিষেধাজ্ঞার আবেদন নিম্নলিখিত ক্ষেত্রগুলিতে মঞ্জুর করা যায় না: <br>
+ক. পূর্বে দায়েরকৃত কোন বিচার কার্যক্রম স্থগিত রাখার জন্য, যদি না বিচার কার্যক্রমের বহমুখিতা (Multiplicity) রোধে তাহা আবশ্যক হয়। <br>
+খ. যে আদালত হইতে নিষেধাজ্ঞা চাওয়া হইতেছে, সেই আদালতের অধীনস্থ নয়, এমন আদালতের বিচার কার্যক্রম স্থগিত রাখার জন্য।<br>
+গ. কোন ব্যক্তিকে আইন প্রণয়নকারী কর্তৃপক্ষের নিকট আবেদন করা হইতে বিরত রাখার জন্য।<br>
+ঘ. সরকারের কোন বিভাগীয় সরকারি কর্তব্যে অথবা বিদেশী সরকারের কোন সার্বভৌম কার্যে হস্তক্ষেপ করার জন্য।<br>
+ঙ. কোন ফৌজদারী কার্যক্রম স্থগিত রাখার জন্য।<br>
+চ. যে চুক্তির কার্যক্রম সুনির্দিষ্টভাবে কার্যকর করা যায় না, তেমন চুক্তি ভঙ্গের জন্য।<br>
+ছ. উৎপাতের (Nuisance) অজুহাতে এমন কোন কাজ প্রতিরোধ করার জন্য, যাহা যুক্তিযুক্তভাবে সুস্পষ্ট নয় যে, তাহা উৎপাতের পর্যায়ে পড়ে। <br>
+জ. এমন একটি ক্রমাগত লংঘন প্রতিরোধের জন্য যাহাতে বাদীর মৌন সমর্থন আছে। <br>
+ঝ. যখন জিম্মা ভঙ্গের মামলা ব্যতীত সমপরিমাণ ফলপ্রদ প্রতিকার নিশ্চিতভাবেই অন্য সাহায্য হইতে বঞ্চিত করে। <br>
+ট. যেখানে মামলার বিষয়বস্তুতে আবেদনকারীর কোন ব্যক্তিগত স্বার্থ নাই।
+			  
+			  
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

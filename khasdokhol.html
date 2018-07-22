@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>খাস দখলের মামলা  <br>কখন করবেন?</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+ 
+আপনার নিজস্ব এক খন্ড জমি থেকে কেউ অন্যায় ও বেআইনীভাবে আপনাকে বেদখল করে দিল। এখন আপনি এই অন্যায় বেদখলদারকে জমি থেকে সমূলে উচ্ছেদ করে আপনার খাস দখল ফিরে পাওয়ার জন্য কখন মামলা করবেন?<br><br>
+
+এই মামলাটি করতে হবে জমি থেকে আপনাকে বেদখল করে দেয়ার তারিখ থেকে বার বছরের মধ্যে। এরপর বলা যায় আপনার ২০ বছরের অর্জিত ব্যবহার সিদ্ধ অধিকারে কেউ যদি বাঁধা দান করে তবে আপনার ব্যবহারসিদ্ধ অধিকার ফিরে পাওয়ার জন্য বাঁধা দানের দিন থেকে ২ বছরের মধ্যে মামলা করতে হবে। <br><br>
+
+<strong>এ আইনটিও একটি উদাহরণ দ্বারা পরিস্কার করার চেষ্টা করছি: </strong><br>
+
+ধরা যাক, ছগির রাশেদের বাড়ীর পাশ দিয়ে দীর্ঘ ২০ বছর ধরে যাওয়া আসা করে। অর্থাৎ ছগির তার বাড়ী থেকে বাইরে যাওয়া এবং বাড়ীতে ঢোকার জন্য ২০ বছর ধরে রাশেদের বাড়ীর এই অংশটিকে চলাচলের রাস্তা হিসেবে নিজ অধিকারে প্রকাশ্যে শান্তিপূর্ণভাবে রাশেদের পক্ষ থেকে কোন প্রকার প্রতিবাদ বা বাধাহীন অবস্থায় ২০ বছর একটানা নিরবচ্ছিন্ন ব্যবহারের ফলে রাশেদের বাড়ির এই অংশটির উপর ছগিরের ব্যবহার করার অধিকার জন্মেছে। কিন্তু ২০ বছর পর হঠাৎ ছগির একদিন দেখে রাশেদ ছগিরের সেই চলাচলের রাস্তাকে বেড়া দিয়ে বন্ধ করে দিয়েছে। ছগির জানে রাশেদ এই দীর্ঘদিন পর তার পথ রোধ করতে পারে না। ছগির তার পথাধিকার ফিরে পাওয়ার জন্য মামলা করতে চাইলে বাঁধাপ্রাপ্ত হওয়ার পর দিন থেকে ২ বছরের মধ্যে ছগিরকে রাশেদের অন্যায় বাধা দানের বিরুদ্ধে মামলা করতে হবে। ছগির যদি ২ বছরের মধ্যে মামলা না করে আর রাশেদ একটানা ২ বছর বাধা কার্যকর রাখতে পারে তবে ছগির তার পথাধিকার হারাবে এবং কাদেরের সে চলাচলের রাস্তায় রাশেদের পূর্ণ অধিকার বর্তাবে। 
+
+
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>

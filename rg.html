@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>আরজি</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+              
+মামলার কারণ ও বিবরণ আরজিতে লিপিবদ্ধ করিয়া তাহা আদালতে পেশ করিয়া মামলা দায়ের করিতে হয়। নিম্নলিখিত বিষয়গুলি আরজিতে লিপিবদ্ধ করিতে হইবে। <br><br>
+১. যে আদালতে মামলা দায়ের করা হইয়াছে তাহার নাম।<br>
+২. বাদীর নাম, পরিচয় ও বাসস্থান।<br>
+৩. বিবাদীর নাম, পরিচয় ও বাসস্থান (যতদূর জানা যায়)। <br>
+৪. বাদী বা বিবাদী নাবালক অথবা মানসিক বিকারগ্রস্ত হলে সে মর্মে বিবৃতি। <br>
+৫. যে সকল ঘটনার জন্য মামলার উদ্ভব হইয়াছে ও যে সময় তাহা হইয়াছে। <br>
+৬. যে আদালতে মামলা দায়ের হইয়াছে, সেই আদালতের যে এই মামলা বিচারের এখতিয়ার রহিয়াছে সেই মর্মে বিবৃতি। <br>
+৭. মামলার বাদীর প্রার্থিত প্রতিকার।<br>
+৮. স্যুট ভেলুয়েশন অনুযায়ী মামলার মূল্য এবং কোর্ট ফি এ্যাক্ট অনুযায়ী দাবির মূল্য বিষয়ে বিবৃতি।   
+			  
+			  
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
