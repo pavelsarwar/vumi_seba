@@ -61,6 +61,11 @@
 	<preference name="android-minSdkVersion" value="14" /> <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 	<preference name="android-installLocation" value="auto" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
-    <access origin="*"/>
+  <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
+
+  <access origin="https://form.jotform.me/60268259401454*" />
+  <allow-navigation href="https://form.jotform.me/*"/>
+  
+  <allow-intent href="https://form.jotform.me/60268259401454*"/>
     
 </widget>
