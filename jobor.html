@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ভূমি সেবা</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.5.min.css">
+    <script src="cordova.js"></script>
+	<script src="scripts/jquery-1.11.2.min.js"></script>
+	<script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+</head>
+<body onload="onLoad()">
+
+<div data-role="page" data-theme="c">
+
+  	<div data-role="header" data-position="fixed">
+			<a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-icon-notext">Home</a>
+		<h1>জবর দখলের অধিকার</h1>
+			<a href="app-info.html" class="ui-btn ui-icon-info ui-btn-icon-left ui-btn-icon-notext">Information</a>
+  	</div>
+	
+	
+
+  	<div data-role="main" class="ui-content">
+	
+	
+
+<p> 
+              
+এ অধিকার খর্ব করতে মামলা করতে হবে ১২ বছর এবং ৬০ বছরের মধ্যে। বেসরকারি সম্পত্তির ক্ষেত্রে ১২ বছর এবং সরকারি সম্পত্তির ক্ষেত্রে ৬০ বছর। <br><br>
+
+যেমন: কাদের বাসেদের এক খন্ড জমিতে বাসেদের জ্ঞাতসারে নিজের মধ্যে জোর করে ভোগ দাবি করে দখল করে চলছে। এভাবে টানা ১২ বছর জোর করে ভোগ দখল অক্ষুন্ন রাখতে পারলে বাসেদের জমিতে কাদেরের স্বত্ব প্রতিষ্ঠিত হবে আর বাসেদের স্বত্ব ক্ষুন্ন হবে। <br><br>
+বাসেদ তার জমিতে নিজের স্বত্ব প্রতিষ্ঠিত করতে হলে বেদখল হওয়ার ১২ বছরের মধ্যে মামলা করতে হবে। জমিটি যদি সরকারি জমি হয় তবে একটানা ৬০ বছর কাদের জবর দখল করে রাখতে পারলে সে জমিতে তার স্বত্ব প্রতিষ্ঠিত হবে আর কাদেরকে উচ্ছেদ করতে হলে সরকারকে ৬০ বছরের মধ্যে কাদেরকে উচ্ছেদ এর জন্য মামলা দায়ের করতে হবে। 
+
+
+			  
+ 	</p>
+                                                                                                         
+
+
+
+		
+		
+  	</div>
+
+  	<div data-role="footer" data-position="fixed">
+  		<div data-role="navbar" data-iconpos="left">
+	    	<ul>
+	      		<li><a href="index.html" data-icon="bullets">সূচীপত্র</a></li>
+	      		<li><a onclick="window.history.back()" href="#" data-icon="back">পিছনে</a>
+	    	</ul>
+	  	</div>
+  	</div>
+
+</div>
+
+
+
+</body>
+</html>
