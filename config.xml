@@ -24,8 +24,8 @@
       
 	  
 	  
-	
-	
+	<icon src="res/mipmap-ldpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
+	<icon src="res/mipmap-mdpi/ic_launcher.png" gap:platform="android" gap:qualifier="mdpi" />
 	<icon src="res/mipmap-hdpi/ic_launcher.png" gap:platform="android" gap:qualifier="hdpi" />
 	<icon src="res/mipmap-xhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xhdpi" />
 	<icon src="res/mipmap-xxhdpi/ic_launcher.png" gap:platform="android" gap:qualifier="xxhdpi" />
